@@ -1,0 +1,1690 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Aba para o Antigo Testamento -->
+                <ScrollView
+                    android:id="@+id/scrollAntigo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/tabAntigoTestamento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtGenesis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gênesis"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                        <TextView
+                            android:id="@+id/txtCap_Genesis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:text="0/50 - 0 %"
+                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbGenesis"
+                            android:max="50"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Êxodo"
+                            android:textStyle="bold"
+                            android:id="@+id/txtExodo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/40 - 0 %"
+                            android:id="@+id/txtCap_Exodo"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbExodo"
+                            android:max="40"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Levítico"
+                            android:textStyle="bold"
+                            android:id="@+id/txtLevitico" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/27 - 0 %"
+                            android:id="@+id/txtCap_Levitico"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbLevitico"
+                            android:max="27"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Números"
+                            android:textStyle="bold"
+                            android:id="@+id/txtNumeros" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/36 - 0 %"
+                            android:id="@+id/txtCap_Numeros"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbNumeros"
+                            android:max="36"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Deuteromônio"
+                            android:textStyle="bold"
+                            android:id="@+id/txtDeuteromonio" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/34 - 0 %"
+                            android:id="@+id/txtCap_Deuteromonio"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbDeuteromonio"
+                            android:max="34"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Josué"
+                            android:textStyle="bold"
+                            android:id="@+id/txtJosue" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/24 - 0 %"
+                            android:id="@+id/txtCap_Josue"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbJosue"
+                            android:max="24"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Juízes"
+                            android:textStyle="bold"
+                            android:id="@+id/txtJuizes" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/21 - 0 %"
+                            android:id="@+id/txtCap_Juizes"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbJuizes"
+                            android:max="21"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Rute"
+                            android:textStyle="bold"
+                            android:id="@+id/txtRute" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/4 - 0 %"
+                            android:id="@+id/txtCap_Rute"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbRute"
+                            android:max="4"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="1 Samuel"
+                            android:textStyle="bold"
+                            android:id="@+id/txt1Samuel" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/31 - 0 %"
+                            android:id="@+id/txtCap_1Samuel"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb1Samuel"
+                            android:max="31"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="2 Samuel"
+                            android:textStyle="bold"
+                            android:id="@+id/txt2Samuel"      />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/24 - 0 %"
+                            android:id="@+id/txtCap_2Samuel"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb2Samuel"
+                            android:max="24"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="1 Reis"
+                            android:textStyle="bold"
+                            android:id="@+id/txt1Reis" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/22 - 0 %"
+                            android:id="@+id/txtCap_1Reis"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb1Reis"
+                            android:max="22"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="2 Reis"
+                            android:textStyle="bold"
+                            android:id="@+id/txt2Reis" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/25 - 0 %"
+                            android:id="@+id/txtCap_2Reis"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb2Reis"
+                            android:max="25"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="1 Crônicas"
+                            android:textStyle="bold"
+                            android:id="@+id/txt1Cronicas" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/29 - 0 %"
+                            android:id="@+id/txtCap_1Cronicas"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb1Cronicas"
+                            android:max="29"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="2 Crônicas"
+                            android:textStyle="bold"
+                            android:id="@+id/txt2Cronicas" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/36 - 0 %"
+                            android:id="@+id/txtCap_2Cronicas"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb2Cronicas"
+                            android:max="36"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Esdras"
+                            android:textStyle="bold"
+                            android:id="@+id/txtEsdras" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/10 - 0 %"
+                            android:id="@+id/txtCap_Esdras"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbEsdras"
+                            android:max="10"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Neemias"
+                            android:textStyle="bold"
+                            android:id="@+id/txtNeemias" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/13 - 0 %"
+                            android:id="@+id/txtCap_Neemias"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbNeemias"
+                            android:max="13"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Ester"
+                            android:textStyle="bold"
+                            android:id="@+id/txtEster" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/10 - 0 %"
+                            android:id="@+id/txtCap_Ester"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbEster"
+                            android:max="10"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Jó"
+                            android:textStyle="bold"
+                            android:id="@+id/txtJo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/42 - 0 %"
+                            android:id="@+id/txtCap_Jo"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbJo"
+                            android:max="42"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Salmos"
+                            android:textStyle="bold"
+                            android:id="@+id/txtSalmos" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/150 - 0 %"
+                            android:id="@+id/txtCap_Salmos"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbSalmos"
+                            android:max="150"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Provérbios"
+                            android:textStyle="bold"
+                            android:id="@+id/txtProverbios" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/31 - 0 %"
+                            android:id="@+id/txtCap_Proverbios"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbProverbios"
+                            android:max="31"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Eclesiastes"
+                            android:textStyle="bold"
+                            android:id="@+id/txtEclesiastes" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/12 - 0 %"
+                            android:id="@+id/txtCap_Eclesiastes"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbEclesiastes"
+                            android:max="12"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Cantares de Salomão"
+                            android:textStyle="bold"
+                            android:id="@+id/txtCantares" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/8 - 0 %"
+                            android:id="@+id/txtCap_Cantares"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbCantares"
+                            android:max="8"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Isaías"
+                            android:textStyle="bold"
+                            android:id="@+id/txtIsaias" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/66 - 0 %"
+                            android:id="@+id/txtCap_Isaias"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbIsaias"
+                            android:max="66"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Jeremias"
+                            android:textStyle="bold"
+                            android:id="@+id/txtJeremias" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/52 - 0 %"
+                            android:id="@+id/txtCap_Jeremias"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbJeremias"
+                            android:max="52"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Lamentações de Jeremias"
+                            android:textStyle="bold"
+                            android:id="@+id/txtLamentacoes" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/5 - 0 %"
+                            android:id="@+id/txtCap_Lamentacoes"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbLamentacoes"
+                            android:max="5"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Ezequiel"
+                            android:textStyle="bold"
+                            android:id="@+id/txtEzequiel" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/48 - 0 %"
+                            android:id="@+id/txtCap_Ezequiel"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbEzequiel"
+                            android:max="48"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Daniel"
+                            android:textStyle="bold"
+                            android:id="@+id/txtDaniel" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/12 - 100 %"
+                            android:id="@+id/txtCap_Daniel"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbDaniel"
+                            android:max="12"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Oseias"
+                            android:textStyle="bold"
+                            android:id="@+id/txtOseias" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/14 - 0 %"
+                            android:id="@+id/txtCap_Oseias"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbOseias"
+                            android:max="14"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Joel"
+                            android:textStyle="bold"
+                            android:id="@+id/txtJoel" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/3 - 0 %"
+                            android:id="@+id/txtCap_Joel"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbJoel"
+                            android:max="3"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Amós"
+                            android:textStyle="bold"
+                            android:id="@+id/txtAmos" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/9 - 0 %"
+                            android:id="@+id/txtCap_Amos"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbAmos"
+                            android:max="9"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Obadias"
+                            android:textStyle="bold"
+                            android:id="@+id/txtObadias" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/1 - 0 %"
+                            android:id="@+id/txtCap_Obadias"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbObadias"
+                            android:max="1"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Jonas"
+                            android:textStyle="bold"
+                            android:id="@+id/txtJonas" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/4 - 0 %"
+                            android:id="@+id/txtCap_Jonas"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbJonas"
+                            android:max="4"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Miqueias"
+                            android:textStyle="bold"
+                            android:id="@+id/txtMiqueias" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/7 - 0 %"
+                            android:id="@+id/txtCap_Miqueias"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbMiqueias"
+                            android:max="7"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Naum"
+                            android:textStyle="bold"
+                            android:id="@+id/txtNaum" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/3 - 0 %"
+                            android:id="@+id/txtCap_Naum"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbNaum"
+                            android:max="3"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Habacuque"
+                            android:textStyle="bold"
+                            android:id="@+id/txtHabacuque" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/3 - 0 %"
+                            android:id="@+id/txtCap_Habacuque"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbHabacuque"
+                            android:max="3"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Sofonias"
+                            android:textStyle="bold"
+                            android:id="@+id/txtSofonias" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/3 - 0 %"
+                            android:id="@+id/txtCap_Sofonias"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbSofonias"
+                            android:max="3"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Ageu"
+                            android:textStyle="bold"
+                            android:id="@+id/txtAgeu" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/2 - 0 %"
+                            android:id="@+id/txtCap_Ageu"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbAgeu"
+                            android:max="2"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Zacarias"
+                            android:id="@+id/txtZacarias" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/14 - 0 %"
+                            android:id="@+id/txtCap_Zacarias"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbZacarias"
+                            android:max="14"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Malaquias"
+                            android:id="@+id/txtMalaquias" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/2 - 0 %"
+                            android:id="@+id/txtCap_Malaquias"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbMalaquias"
+                            android:max="2"
+                            android:progress="0"
+                            android:indeterminate="false" />
+                    </LinearLayout>
+                </ScrollView>
+
+                <!-- Aba para o Novo Testamento................................................. -->
+                <ScrollView
+                    android:id="@+id/scrollNovoTestamento"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/tabNovoTestamento"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtMateus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mateus"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/28 - 0 %"
+                            android:id="@+id/txtCap_Mateus"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbMateus"
+                            android:max="28"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtMarcos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Marcos"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/16 - 0 %"
+                            android:id="@+id/txtCap_Marcos"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbMarcos"
+                            android:max="16"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtLucas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lucas"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/24 - 0 %"
+                            android:id="@+id/txtCap_Lucas"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbLucas"
+                            android:max="24"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtJoao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="João"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/21 - 0 %"
+                            android:id="@+id/txtCap_Joao"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbJoao"
+                            android:max="21"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtAtos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Atos dos Apóstolos"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/28 - 0 %"
+                            android:id="@+id/txtCap_Atos"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbAtos"
+                            android:max="28"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtRomanos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Romanos"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/16 - 0 %"
+                            android:id="@+id/txtCap_Romanos"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbRomanos"
+                            android:max="16"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txt1Corintios"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 Corintios"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/16 - 0 %"
+                            android:id="@+id/txtCap_1Corintios"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb1Corintios"
+                            android:max="16"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txt2Corintios"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 Corintios"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/13 - 0 %"
+                            android:id="@+id/txtCap_2Corintios"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb2Corintios"
+                            android:max="13"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtGalatas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gálatas"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/6 - 0 %"
+                            android:id="@+id/txtCap_Galatas"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbGalatas"
+                            android:max="06"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtEfesios"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Efésios"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/6 - 0 %"
+                            android:id="@+id/txtCap_Efesios"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbEfesios"
+                            android:max="6"
+                            android:progress="0"
+                            android:indeterminate="false" />
+                        <TextView
+                            android:id="@+id/txtFilipenses"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Filipenses"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/4 - 0 %"
+                            android:id="@+id/txtCap_Filipenses"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbFilipenses"
+                            android:max="4"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtColossenses"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Colossenses"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/4 - 0 %"
+                            android:id="@+id/txtCap_Colossenses"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbColossenses"
+                            android:max="4"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txt1Tessalonicenses"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 Tessalonicenses"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/5 - 0 %"
+                            android:id="@+id/txtCap_1Tessalonicenses"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb1Tessalonicenses"
+                            android:max="5"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txt2Tessalonicenses"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 Tessalonicenses"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/3 - 0 %"
+                            android:id="@+id/txtCap_2Tessalonicenses"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb2Tessalonicenses"
+                            android:max="3"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txt1Timoteo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 Timóteo"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/6 - 0 %"
+                            android:id="@+id/txtCap_1Timoteo"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb1Timoteo"
+                            android:max="6"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txt2Timoteo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 Timóteo"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/4 - 0 %"
+                            android:id="@+id/txtCap_2Timoteo"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb2Timoteo"
+                            android:max="4"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtTito"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tito"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/3 - 0 %"
+                            android:id="@+id/txtCap_Tito"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbTito"
+                            android:max="3"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtFilemom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Filemom"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/1 - 0 %"
+                            android:id="@+id/txtCap_Filemom"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbFilemom"
+                            android:max="1"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtHebreus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hebreus"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/13 - 0 %"
+                            android:id="@+id/txtCap_Hebreus"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbHebreus"
+                            android:max="13"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtTiago"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tiago"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/5 - 0 %"
+                            android:id="@+id/txtCap_Tiago"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbTiago"
+                            android:max="5"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txt1Pedro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 Pedro"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/5 - 0 %"
+                            android:id="@+id/txtCap_1Pedro"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb1Pedro"
+                            android:max="5"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txt2Pedro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 Pedro"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/3 - 0 %"
+                            android:id="@+id/txtCap_2Pedro"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb2Pedro"
+                            android:max="3"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txt1Joao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="1 João"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/5 - 0 %"
+                            android:id="@+id/txtCap_1Joao"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb1Joao"
+                            android:max="5"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txt2Joao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2 João"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/1 - 0 %"
+                            android:id="@+id/txtCap_2Joao"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb2Joao"
+                            android:max="1"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txt3Joao"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="3 João"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/1 - 0 %"
+                            android:id="@+id/txtCap_3Joao"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pb3Joao"
+                            android:max="1"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtJudas"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Judas"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/1 - 0 %"
+                            android:id="@+id/txtCap_Judas"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbJudas"
+                            android:max="1"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+                        <TextView
+                            android:id="@+id/txtApocalipse"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Apocalipse"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="0/22 - 0 %"
+                            android:id="@+id/txtCap_Apocalipse"
+                            android:layout_gravity="center_horizontal" />
+
+                        <ProgressBar
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/pbApocalipse"
+                            android:max="22"
+                            android:progress="0"
+                            android:indeterminate="false" />
+
+
+
+                    </LinearLayout>
+                </ScrollView>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+
+</RelativeLayout>

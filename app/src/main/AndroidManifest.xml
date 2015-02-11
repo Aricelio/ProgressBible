@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="developer.celio.com.br.progressbible" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListaLivros"
+            android:label="@string/title_activity_lista_livros" >
+        </activity>
+        <activity
+            android:name=".HistoricoLeitura"
+            android:label="@string/title_activity_historico_leitura" >
+        </activity>
+        <activity
+            android:name=".LivrosLidos"
+            android:label="@string/title_activity_livros_lidos" >
+        </activity>
+        <activity
+            android:name=".LivrosLendo"
+            android:label="@string/title_activity_livros_lendo" >
+        </activity>
+        <activity
+            android:name=".ListaHistoricos"
+            android:label="@string/title_activity_lista_historicos" >
+        </activity>
+        <activity
+            android:name=".LivrosVouLer"
+            android:label="@string/title_activity_livros_vou_ler" >
+        </activity>
+    </application>
+
+</manifest>

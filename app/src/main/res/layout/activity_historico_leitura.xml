@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="developer.celio.com.br.progressbible.HistoricoLeitura">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Livro de: "
+        android:id="@+id/txtNomeLivroHistoricoLeitura"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="5dp"
+        android:text="Capitulos Lidos:"
+        android:id="@+id/txtCapLido"
+        android:layout_below="@+id/txtNomeLivroHistoricoLeitura"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:hint="*12"
+        android:id="@+id/edtCapituloLido"
+        android:layout_below="@+id/txtCapLido"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informações do Livro"
+        android:id="@+id/btnInformacoes"
+        android:layout_below="@+id/btnSalvarHistorico"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btnSalvarHistorico"
+        android:layout_alignEnd="@+id/btnSalvarHistorico" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar Histórico"
+        android:id="@+id/btnSalvarHistorico"
+        android:onClick="onClickSalvarHistorico"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/edtComentario"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtComentario"
+        android:layout_alignEnd="@+id/edtComentario" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Comentário:"
+        android:id="@+id/txtComentario"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/edtCapituloLido"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtComentario"
+        android:hint="*História do Profeta..."
+        android:layout_below="@+id/txtComentario"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/edtCapituloLido"
+        android:layout_alignEnd="@+id/edtCapituloLido" />
+
+</RelativeLayout>
