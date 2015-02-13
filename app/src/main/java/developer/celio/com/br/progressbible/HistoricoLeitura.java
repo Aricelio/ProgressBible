@@ -21,8 +21,11 @@ import developer.celio.com.br.DomainModel.Livro;
 
 public class HistoricoLeitura extends Activity {
 
-    private static  String STR_NOME;
+    private static String STR_NOME;
     private AlertDialog alerta;
+    LivroDAO livroDAO = new LivroDAO(this);
+    HistoricoDAO historicoDAO = new HistoricoDAO(this);
+    Livro livro = new Livro();
 
     // Método onCreate..............................................................................
     @Override
@@ -32,27 +35,42 @@ public class HistoricoLeitura extends Activity {
 
         STR_NOME = this.getIntent().getExtras().getString("Nome");
         TextView txtNomeLivro = (TextView) findViewById(R.id.txtNomeLivroHistoricoLeitura);
-        txtNomeLivro.setText("Livro de: " + STR_NOME.toString());
+        EditText edCapLido = (EditText) findViewById(R.id.edtCapituloLido);
+
+        livro = livroDAO.filtrar(STR_NOME); // Pega  os dados do livro aberto
+        Historico hist = new Historico(new Date());
+
+        // Tenta buscar o ultimo historico do livro que foi aberto
+        try {
+            int idLivro = Integer.valueOf(livro.getId().toString());
+            hist = historicoDAO.buscar(idLivro);
+        } catch (Exception e) {
+            hist.setCapsLidos(0);
+        }
+
+        int i = hist.getCapsLidos();
+        // Seta os componentes da tela
+        edCapLido.setHint(i);
+        txtNomeLivro.setText("Livro de: " + STR_NOME.toString() + "\n" + livro.getTipo() + "\n"
+                + livro.getCapitulos() + " Capitulo(s)");
+
     }
 
     // Método para Salvar o Histórico...............................................................
-    public void onClickSalvarHistorico(View view){
+    public void onClickSalvarHistorico(View view) {
 
-        LivroDAO livroDAO = new LivroDAO(this);
-        Livro livro = livroDAO.filtrar(STR_NOME);
+        livro = livroDAO.filtrar(STR_NOME);
         Historico historico = new Historico(new Date());
-        HistoricoDAO historicoDAO = new HistoricoDAO(this);
 
         EditText edCapLido = (EditText) findViewById(R.id.edtCapituloLido);
         EditText edComentario = (EditText) findViewById(R.id.edtComentario);
 
-
-        try{
+        try {
             // Tenta converter o valor inserido para INT
             int cap = Integer.parseInt(edCapLido.getText().toString());
 
             // Se for um valor válido continua
-            if((cap <= livro.getCapitulos()) && (cap > 0)){
+            if ((cap <= livro.getCapitulos()) && (cap > 0)) {
                 try {
                     historico.setCapsLidos(cap);
                     historico.setComentario(edComentario.getText().toString());
@@ -60,39 +78,37 @@ public class HistoricoLeitura extends Activity {
 
                     historicoDAO.salvar(historico);
 
-                    if(cap == livro.getCapitulos())
-                        livroDAO.atualizar(1,livro.getId());
+                    if (cap == livro.getCapitulos())
+                        livroDAO.atualizar(1, livro.getId());
                     else
-                        livroDAO.atualizar(2,livro.getId());
+                        livroDAO.atualizar(2, livro.getId());
 
                     exibeMensagem("Confirmação", "Histórico Salvo com Sucesso!", 1);
                 } catch (Exception ex) {
                     exibeMensagem("Erro!", ex.getMessage(), 2);
                 }
-            }
-            else
+            } else
                 exibeMensagem("Erro!", "Valor inserido para 'Capitulos Lidos' é invalido!", 2);
-        }
-        catch(Exception e){
+        } catch (Exception e) {
             exibeMensagem("Erro!", "O campo 'Capitulos Lidos' é de preenchimento obrigatório!", 2);
         }
     }
 
     // Método para exibir mensagem na tela..........................................................
-    public void exibeMensagem(String titulo, String msg, final int tipo){
+    public void exibeMensagem(String titulo, String msg, final int tipo) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(titulo);
         builder.setMessage(msg);
 
-        if(tipo == 1)
+        if (tipo == 1)
             builder.setIcon(R.drawable.ic_ok);
         else
             builder.setIcon(R.drawable.ic_alerta);
 
-        builder.setNeutralButton("Ok", new DialogInterface.OnClickListener(){
+        builder.setNeutralButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                if(tipo == 1)
+                if (tipo == 1)
                     finish();
             }
         });

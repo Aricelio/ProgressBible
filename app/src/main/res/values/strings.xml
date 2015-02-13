@@ -11,11 +11,12 @@
     <string name="menuEditarLeitura">Editar Leitura</string>
 
     <!-- Strings dos nomes das Activitis -->
-    <string name="title_activity_lista_livros">Selecione o Livro</string>
+    <string name="title_activity_lista_livros">Selecione o Livro:</string>
     <string name="title_activity_historico_leitura">Histórico de Leitura</string>
     <string name="title_activity_livros_lidos">Livros Lidos</string>
     <string name="title_activity_livros_lendo">Lendo</string>
     <string name="title_activity_lista_historicos">Historico</string>
     <string name="title_activity_livros_vou_ler">Vou Ler</string>
+    <string name="title_activity_sobre">Sobre o ProgressBible</string>
 
 </resources>

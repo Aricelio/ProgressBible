@@ -476,13 +476,14 @@ public class MainActivity extends Activity {
 
             //Se foi selecionado o item Sobre
             case R.id.menu_sobre:
-                Toast.makeText(MainActivity.this, "Icone Sobre", Toast.LENGTH_LONG).show();
-                return false;
+                Intent itSobre = new Intent(MainActivity.this, Sobre.class);
+                MainActivity.this.startActivity(itSobre);
+                return true;
 
             //Se foi selecionado o item Update
             case R.id.menu_update_leitura:
-                Intent intent = new Intent(MainActivity.this, ListaLivros.class);
-                MainActivity.this.startActivity(intent);
+                Intent itUpdate = new Intent(MainActivity.this, ListaLivros.class);
+                MainActivity.this.startActivity(itUpdate);
                 return true;
 
             case R.id.menu_livros_lido:

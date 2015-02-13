@@ -46,6 +46,10 @@
             android:name="developer.celio.com.br.progressbible.LivrosVouLer"
             android:label="@string/title_activity_livros_vou_ler" >
         </activity>
+        <activity
+            android:name="developer.celio.com.br.progressbible.Sobre"
+            android:label="@string/title_activity_sobre" >
+        </activity>
     </application>
 
 </manifest>

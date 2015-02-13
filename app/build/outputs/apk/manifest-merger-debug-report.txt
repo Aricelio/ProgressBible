@@ -77,6 +77,12 @@ ADDED from AndroidManifest.xml:39:9
 		ADDED from AndroidManifest.xml:41:13
 	android:name
 		ADDED from AndroidManifest.xml:40:13
+activity#developer.celio.com.br.progressbible.Sobre
+ADDED from AndroidManifest.xml:43:9
+	android:label
+		ADDED from AndroidManifest.xml:45:13
+	android:name
+		ADDED from AndroidManifest.xml:44:13
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 MERGED from com.android.support:appcompat-v7:21.0.3:15:5

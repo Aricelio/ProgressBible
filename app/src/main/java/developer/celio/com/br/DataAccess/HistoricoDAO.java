@@ -81,4 +81,7 @@ public class HistoricoDAO {
 
         Log.i(TAG, "Metodo Deletar - Historico do livro: " + historico.getLivro().getNome() + " Apagado");
     }
+
+
+
 }
