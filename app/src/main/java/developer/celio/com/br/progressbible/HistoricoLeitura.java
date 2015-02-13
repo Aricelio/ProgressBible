@@ -1,5 +1,6 @@
 package developer.celio.com.br.progressbible;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -35,25 +36,26 @@ public class HistoricoLeitura extends Activity {
 
         STR_NOME = this.getIntent().getExtras().getString("Nome");
         TextView txtNomeLivro = (TextView) findViewById(R.id.txtNomeLivroHistoricoLeitura);
-        EditText edCapLido = (EditText) findViewById(R.id.edtCapituloLido);
+        TextView txtCapitulos = (TextView) findViewById(R.id.txtCapitulosHistoricoLeitura);
+        EditText edCapLido    = (EditText) findViewById(R.id.edtCapituloLido);
 
         livro = livroDAO.filtrar(STR_NOME); // Pega  os dados do livro aberto
         Historico hist = new Historico(new Date());
 
         // Tenta buscar o ultimo historico do livro que foi aberto
         try {
-            int idLivro = Integer.valueOf(livro.getId().toString());
-            hist = historicoDAO.buscar(idLivro);
+            hist = historicoDAO.buscar(Integer.valueOf(livro.getId().toString()));
         } catch (Exception e) {
-            hist.setCapsLidos(0);
         }
 
-        int i = hist.getCapsLidos();
         // Seta os componentes da tela
-        edCapLido.setHint(i);
-        txtNomeLivro.setText("Livro de: " + STR_NOME.toString() + "\n" + livro.getTipo() + "\n"
-                + livro.getCapitulos() + " Capitulo(s)");
+        edCapLido.setHint(String.valueOf(hist.getCapsLidos()));
+        txtNomeLivro.setText("Livro de: " + livro.getNome());
+        txtCapitulos.setText(livro.getCapitulos() + " Capitulo(s)");
 
+        // Configuração para do botão Voltar na ActionBar
+        ActionBar ab = getActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
     }
 
     // Método para Salvar o Histórico...............................................................
@@ -120,20 +122,17 @@ public class HistoricoLeitura extends Activity {
     // Método onCreateOptionsMenu...................................................................
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        //getMenuInflater().inflate(R.menu.menu_historico_leitura, menu);
-        return false;
+        getMenuInflater().inflate(R.menu.menu_historico_leitura, menu);
+        return true;
     }
 
     // Método onOptionsItemSelected.................................................................
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        // Se foi pressionado o botão Voltar finaliza a Activity
+        if(item.getItemId() == android.R.id.home){
+            finish();
         }
-
         return super.onOptionsItemSelected(item);
     }
 }

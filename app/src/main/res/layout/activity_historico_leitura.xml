@@ -33,6 +33,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Capitulos"
+                android:id="@+id/txtCapitulosHistoricoLeitura"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_marginTop="5dp"
                 android:text="Capitulos Lidos:"
                 android:id="@+id/txtCapLido"
@@ -44,7 +52,6 @@
                 android:layout_height="wrap_content"
                 android:inputType="numberSigned"
                 android:ems="10"
-                android:hint="*12"
                 android:id="@+id/edtCapituloLido" />
 
             <TextView
