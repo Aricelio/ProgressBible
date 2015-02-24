@@ -2,21 +2,28 @@ package developer.celio.com.br.progressbible;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.view.ContextMenu;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.SubMenu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TabHost;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 import java.util.List;
+
+import developer.celio.com.br.DomainModel.Livro;
 
 
 public class ListaLivros extends Activity {
@@ -27,6 +34,7 @@ public class ListaLivros extends Activity {
     private ArrayAdapter<String> adapterNovo;
     private ArrayAdapter<String> adapterAntigo;
     private int adapterLayout = android.R.layout.simple_list_item_1;
+    private static int ID_LISTVIEW;
 
     // Método onCreate..............................................................................
     @Override
@@ -54,6 +62,7 @@ public class ListaLivros extends Activity {
         lstListaLivrosAntigoTestamento = (ListView) findViewById(R.id.lstLivrosAntigoTestamento);
         lstListaLivrosNovoTestamento = (ListView) findViewById(R.id.lstLivrosNovoTestamento);
 
+        // Informa que as ListViews tem Menu de Contexto
         registerForContextMenu(lstListaLivrosAntigoTestamento);
         registerForContextMenu(lstListaLivrosNovoTestamento);
 
@@ -105,6 +114,62 @@ public class ListaLivros extends Activity {
     protected void onResume(){
         super.onResume();
         this.carregarListas();
+    }
+
+    // Método para o evento de click longo em um item da lista......................................
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v,ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
+
+        if(v.getId() == R.id.lstLivrosAntigoTestamento){
+            ID_LISTVIEW = 1;
+        } else if(v.getId() == R.id.lstLivrosNovoTestamento){
+            ID_LISTVIEW = 2;
+        }
+
+        menu.setHeaderIcon(R.drawable.ic_sobre);
+        menu.setHeaderTitle("Selecione uma Opção: ");
+        menu.add(0, v.getId(), 0, "Atualizar Leitura"); // groupId, itemId, order, title
+        menu.add(0, v.getId(), 0, "Histórico de Leitura");
+    }
+
+    // Método para configuração da opção selecionada nas opções da lista............................
+    @Override
+    public boolean onContextItemSelected(MenuItem item) {
+
+        Livro livro = new Livro();
+        AdapterView.AdapterContextMenuInfo menuinfo = (AdapterView.AdapterContextMenuInfo) item
+                .getMenuInfo();
+        long selectId = menuinfo.id;
+        String strLivro = "";
+
+        // Se escolher a opção ATUALIZAR..........................................
+        if (item.getTitle().equals("Atualizar Leitura")) {
+            Intent intent = new Intent(ListaLivros.this, HistoricoLeitura.class);
+
+            if(ID_LISTVIEW == 1)
+                strLivro = retornaLivro(1, (int) selectId);
+            else if(ID_LISTVIEW == 2)
+                strLivro = retornaLivro(2, (int) selectId);
+
+            intent.putExtra("Nome", strLivro);
+            ListaLivros.this.startActivity(intent);
+        }
+
+        // Se escolher a opção HISTORICO..........................................
+        else if (item.getTitle().equals("Histórico de Leitura")) {
+            Intent intentHistoricos = new Intent(ListaLivros.this, ListaHistoricos.class);
+            if(ID_LISTVIEW == 1)
+                strLivro = retornaLivro(1, (int) selectId);
+            else if(ID_LISTVIEW == 2)
+                strLivro = retornaLivro(2, (int) selectId);
+
+            intentHistoricos.putExtra("Nome", strLivro);
+            ListaLivros.this.startActivity(intentHistoricos);
+        } else {
+            return false;
+        }
+        return true;
     }
 
     // Método que retorna  o nome do Livro com base em sua posição..................................

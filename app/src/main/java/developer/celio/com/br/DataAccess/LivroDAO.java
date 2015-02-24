@@ -117,6 +117,32 @@ public class LivroDAO {
         return livro;
     }
 
+    // Método ABRIR.................................................................................
+    public Livro abrir(Long id){
+        String sql = "select * from Livros where id=" + id;
+        Livro livro = new Livro();
+
+        BDUtil bdUtil = new BDUtil(context);
+        Cursor cursor = bdUtil.getReadableDatabase().rawQuery(sql,null);
+
+        try{
+            if(cursor.moveToFirst()){
+                livro.setId(cursor.getLong(0));
+                livro.setNome(cursor.getString(1));
+                livro.setCapitulos(cursor.getInt(2));
+                livro.setTipo(cursor.getString(4));
+            }
+        } catch (Exception e) {
+            Log.e(TAG, e.getMessage());
+        } finally {
+            cursor.close();
+            bdUtil.close();
+        }
+
+        Log.i(TAG, "Método ABRIR");
+        return livro;
+    }
+
 
 
 }

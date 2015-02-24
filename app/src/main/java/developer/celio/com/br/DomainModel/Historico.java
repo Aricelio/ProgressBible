@@ -1,5 +1,6 @@
 package developer.celio.com.br.DomainModel;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -57,5 +58,21 @@ public class Historico {
 
     public void setLivro(Livro livro) {
         this.livro = livro;
+    }
+
+    @Override
+    public String toString() {
+        return mostraHistorico();
+    }
+
+    private String mostraHistorico() {
+        String str = "";
+        String strData;
+        SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
+
+        strData = formatter.format(data);
+        int percent = (capsLidos * 100) / livro.getCapitulos();
+
+        return strData + " - " + percent + "% (" + capsLidos + " de " + livro.getCapitulos() + ")\n\n" + comentario + "\n";
     }
 }
