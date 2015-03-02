@@ -80,10 +80,16 @@ public class HistoricoLeitura extends Activity {
 
                     historicoDAO.salvar(historico);
 
-                    if (cap == livro.getCapitulos())
-                        livroDAO.atualizar(1, livro.getId());
-                    else
-                        livroDAO.atualizar(2, livro.getId());
+                    if(!livro.getStatus().equals("Relendo")) {
+                        if (cap == livro.getCapitulos())
+                            livroDAO.atualizar(1, livro.getId());
+                        else {
+                            if(historicoDAO.verificaOpcaoRelendo(livro.getId(), livro.getCapitulos()))
+                                livroDAO.atualizar(4, livro.getId());
+                            else
+                                livroDAO.atualizar(2, livro.getId());
+                        }
+                    }
 
                     exibeMensagem("Confirmação", "Histórico Salvo com Sucesso!", 1);
                 } catch (Exception ex) {

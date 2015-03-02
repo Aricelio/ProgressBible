@@ -22,6 +22,10 @@ public class MainActivity extends Activity {
     // Antigo Testamento
     private final int[] CAP_ANTIGO_TEST = new int[39];
     private final int[] CAP_NOVO_TEST = new int[27];
+    private final String COR_VERDE = "#04B404";
+    private final String COR_AMARELA = "#FFFF00";
+    private final String COR_AZUL = "#013ADF";
+    private final String COR_LARANJA = "#FF8000";
 
     // Método onCreate..............................................................................
     @Override
@@ -412,10 +416,22 @@ public class MainActivity extends Activity {
         int[] porcentagem = new int[39];
 
 
-        // Setas os dados dos componentes da TAB Antigo Testamento
+        // Seta os dados dos componentes da TAB Antigo Testamento
         for(int i=0; i < 39; i++){
             historico[i] = historicoDAO.buscar(i+1);
+
+
+            // Se há Historico para o livro
             if(historico[i].getId() != 0){
+
+                if(historico[i].getCapsLidos() == CAP_ANTIGO_TEST[i])
+                    txtLivroAT[i].setTextColor(Color.parseColor(COR_VERDE));
+                else{
+                    if(historicoDAO.verificaOpcaoRelendo(i+1, CAP_ANTIGO_TEST[i]))
+                        txtLivroAT[i].setTextColor(Color.parseColor(COR_LARANJA));
+                    else
+                        txtLivroAT[i].setTextColor(Color.parseColor(COR_AMARELA));
+                }
 
                 // Calcula a porcentagem lida do livro
                 porcentagem[i] = (historico[i].getCapsLidos() * 100) / CAP_ANTIGO_TEST[i];
@@ -424,15 +440,15 @@ public class MainActivity extends Activity {
                 strHistorico[i] = historico[i].getCapsLidos() + "/" + CAP_ANTIGO_TEST[i]
                         + " - " + porcentagem[i] + " %";
 
-                if(historico[i].getCapsLidos() < CAP_ANTIGO_TEST[i])
-                    txtLivroAT[i].setTextColor(Color.parseColor("#ff009688"));
-                else
-                    txtLivroAT[i].setTextColor(Color.GREEN);
 
                 // Seta o texto e barra do livro
                 txtCapAT[i].setText(strHistorico[i]);
                 pbCapAT[i].setProgress(historico[i].getCapsLidos());
             }
+            // Senão há historico para o livro seu status é "Quero ler"
+            else
+                txtLivroAT[i].setTextColor(Color.parseColor(COR_AZUL));
+
         }
 
         // Seta os dados dos componentes da TAB Novo Testamento

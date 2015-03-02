@@ -26,6 +26,29 @@ public class StatusDAO {
         this.context = context;
     }
 
+    // Método Abrir.................................................................................
+    public Status abrir(int id){
+        String sql = "select * from Status where id=" + id;
+        Status status = new Status();
+
+        BDUtil bdUtil = new BDUtil(context);
+        Cursor cursor = bdUtil.getReadableDatabase().rawQuery(sql,null);
+
+        try{
+            if(cursor.moveToFirst()){
+                status.setId(cursor.getLong(0));
+                status.setNomeStatus(cursor.getString(1));
+            }
+        } catch (Exception e) {
+            Log.e(TAG, e.getMessage());
+        } finally {
+            cursor.close();
+            bdUtil.close();
+        }
+
+        return status;
+    }
+
     // Método  Listar...............................................................................
     public List<Status> listar() throws Exception{
         List<Status> lista = new ArrayList<Status>();

@@ -74,6 +74,27 @@ public class HistoricoDAO {
         return historico;
     }
 
+    public boolean verificaOpcaoRelendo(long idLivro, int qtdeCap){
+        boolean retorno = false;
+        String sql = "select *  from Historicos where idLivro= " + idLivro + " and capLidos=" + qtdeCap;
+
+        BDUtil bdUtil = new BDUtil(context);
+        Cursor cursor = bdUtil.getReadableDatabase().rawQuery(sql, null);
+
+        try {
+            if(cursor.moveToFirst())
+                retorno = true;
+
+        } catch (Exception e) {
+            Log.e(TAG, e.getMessage());
+        } finally {
+            cursor.close();
+            bdUtil.close();
+        }
+
+        return retorno;
+    }
+
     // Método Deletar...............................................................................
     public void deletar(Historico historico){
         String[] args = { historico.getId().toString() };

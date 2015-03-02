@@ -338,9 +338,11 @@ int drawable ic_launcher 0x7f020034
 int drawable ic_lendo 0x7f020035
 int drawable ic_lido 0x7f020036
 int drawable ic_ok 0x7f020037
-int drawable ic_sobre 0x7f020038
-int drawable ic_update 0x7f020039
-int drawable ic_vouler 0x7f02003a
+int drawable ic_opcoes 0x7f020038
+int drawable ic_relendo 0x7f020039
+int drawable ic_sobre 0x7f02003a
+int drawable ic_update 0x7f02003b
+int drawable ic_vouler 0x7f02003c
 int id action_bar 0x7f070031
 int id action_bar_activity_content 0x7f070015
 int id action_bar_container 0x7f070030
@@ -392,9 +394,10 @@ int id menu2_livros 0x7f070121
 int id menuEditarLeitura 0x7f07011f
 int id menu_livros_lendo 0x7f070126
 int id menu_livros_lido 0x7f070125
+int id menu_livros_relendo 0x7f070128
 int id menu_livros_vouler 0x7f070127
 int id menu_opcoes 0x7f070124
-int id menu_sobre 0x7f070128
+int id menu_sobre 0x7f070129
 int id menu_update_leitura 0x7f070123
 int id middle 0x7f07000b
 int id never 0x7f07000d

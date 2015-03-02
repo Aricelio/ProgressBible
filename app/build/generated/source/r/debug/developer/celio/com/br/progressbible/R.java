@@ -1304,9 +1304,11 @@ containing a value of this type.
         public static final int ic_lendo=0x7f020035;
         public static final int ic_lido=0x7f020036;
         public static final int ic_ok=0x7f020037;
-        public static final int ic_sobre=0x7f020038;
-        public static final int ic_update=0x7f020039;
-        public static final int ic_vouler=0x7f02003a;
+        public static final int ic_opcoes=0x7f020038;
+        public static final int ic_relendo=0x7f020039;
+        public static final int ic_sobre=0x7f02003a;
+        public static final int ic_update=0x7f02003b;
+        public static final int ic_vouler=0x7f02003c;
     }
     public static final class id {
         public static final int action_bar=0x7f070031;
@@ -1360,9 +1362,10 @@ containing a value of this type.
         public static final int menuEditarLeitura=0x7f07011f;
         public static final int menu_livros_lendo=0x7f070126;
         public static final int menu_livros_lido=0x7f070125;
+        public static final int menu_livros_relendo=0x7f070128;
         public static final int menu_livros_vouler=0x7f070127;
         public static final int menu_opcoes=0x7f070124;
-        public static final int menu_sobre=0x7f070128;
+        public static final int menu_sobre=0x7f070129;
         public static final int menu_update_leitura=0x7f070123;
         public static final int middle=0x7f07000b;
         public static final int never=0x7f07000d;
