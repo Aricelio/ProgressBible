@@ -68,11 +68,11 @@ public class Historico {
     private String mostraHistorico() {
         String str = "";
         String strData;
-        SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
 
         strData = formatter.format(data);
         int percent = (capsLidos * 100) / livro.getCapitulos();
 
-        return strData + " - " + percent + "% (" + capsLidos + " de " + livro.getCapitulos() + ")\n\n" + comentario + "\n";
+        return ". " + strData + " - " + percent + "% (" + capsLidos + " de " + livro.getCapitulos() + ")\n\n    " + comentario + "\n";
     }
 }

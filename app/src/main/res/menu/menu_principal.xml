@@ -35,6 +35,13 @@
                 android:icon="@drawable/ic_vouler"
                 android:title="Vou Ler"   />
 
+            <!-- Item Livros Relendo .....................-->
+            <item
+                android:id="@+id/menu_livros_relendo"
+                android:showAsAction="ifRoom|withText"
+                android:icon="@drawable/ic_relendo"
+                android:title="Relendo"   />
+
             <!-- Item Sobre.............................. -->
             <item
                 android:id="@+id/menu_sobre"

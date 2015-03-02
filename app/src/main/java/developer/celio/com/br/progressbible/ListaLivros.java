@@ -2,7 +2,9 @@ package developer.celio.com.br.progressbible;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.ComponentName;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -21,14 +23,19 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import java.util.Date;
 import java.util.List;
 
+import developer.celio.com.br.DataAccess.HistoricoDAO;
+import developer.celio.com.br.DataAccess.LivroDAO;
+import developer.celio.com.br.DomainModel.Historico;
 import developer.celio.com.br.DomainModel.Livro;
 
 
 public class ListaLivros extends Activity {
 
     // Variaveis....................................................................................
+    private AlertDialog alerta;
     private ListView lstListaLivrosAntigoTestamento;
     private ListView lstListaLivrosNovoTestamento;
     private ArrayAdapter<String> adapterNovo;
@@ -87,26 +94,26 @@ public class ListaLivros extends Activity {
 
 
         // Método para um clique em um item da lista de livros do Antigo Testamento
-        this.lstListaLivrosAntigoTestamento.setOnItemClickListener(new OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent intent = new Intent(ListaLivros.this, HistoricoLeitura.class);
-                String livro = retornaLivro(1,i);
-                intent.putExtra("Nome", livro);
-                ListaLivros.this.startActivity(intent);
-            }
-        });
-
-        // Método para um clique em um item da lista de livros do novo Testamento
-        this.lstListaLivrosNovoTestamento.setOnItemClickListener(new OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent intent = new Intent(ListaLivros.this, HistoricoLeitura.class);
-                String livro = retornaLivro(2,i);
-                intent.putExtra("Nome", livro);
-                ListaLivros.this.startActivity(intent);
-            }
-        });
+//        this.lstListaLivrosAntigoTestamento.setOnItemClickListener(new OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+//                Intent intent = new Intent(ListaLivros.this, HistoricoLeitura.class);
+//                String livro = retornaLivro(1,i);
+//                intent.putExtra("Nome", livro);
+//                ListaLivros.this.startActivity(intent);
+//            }
+//        });
+//
+//        // Método para um clique em um item da lista de livros do novo Testamento
+//        this.lstListaLivrosNovoTestamento.setOnItemClickListener(new OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+//                Intent intent = new Intent(ListaLivros.this, HistoricoLeitura.class);
+//                String livro = retornaLivro(2,i);
+//                intent.putExtra("Nome", livro);
+//                ListaLivros.this.startActivity(intent);
+//            }
+//        });
     }
 
     // Método onResume..............................................................................
@@ -138,34 +145,42 @@ public class ListaLivros extends Activity {
     public boolean onContextItemSelected(MenuItem item) {
 
         Livro livro = new Livro();
+        List<Historico> listHistorico = new ArrayList<Historico>();
+        LivroDAO livroDAO = new LivroDAO(this);
+        HistoricoDAO histDAO = new HistoricoDAO(this);
+
         AdapterView.AdapterContextMenuInfo menuinfo = (AdapterView.AdapterContextMenuInfo) item
                 .getMenuInfo();
         long selectId = menuinfo.id;
         String strLivro = "";
 
+        if(ID_LISTVIEW == 1)
+            strLivro = retornaLivro(1, (int) selectId);
+        else if(ID_LISTVIEW == 2)
+            strLivro = retornaLivro(2, (int) selectId);
+
+        livro = livroDAO.filtrar(strLivro);
+        try {
+            listHistorico = histDAO.listar(Integer.parseInt(livro.getId().toString()));
+        } catch(Exception e){
+        }
+
         // Se escolher a opção ATUALIZAR..........................................
         if (item.getTitle().equals("Atualizar Leitura")) {
             Intent intent = new Intent(ListaLivros.this, HistoricoLeitura.class);
-
-            if(ID_LISTVIEW == 1)
-                strLivro = retornaLivro(1, (int) selectId);
-            else if(ID_LISTVIEW == 2)
-                strLivro = retornaLivro(2, (int) selectId);
-
             intent.putExtra("Nome", strLivro);
             ListaLivros.this.startActivity(intent);
         }
-
         // Se escolher a opção HISTORICO..........................................
         else if (item.getTitle().equals("Histórico de Leitura")) {
-            Intent intentHistoricos = new Intent(ListaLivros.this, ListaHistoricos.class);
-            if(ID_LISTVIEW == 1)
-                strLivro = retornaLivro(1, (int) selectId);
-            else if(ID_LISTVIEW == 2)
-                strLivro = retornaLivro(2, (int) selectId);
-
-            intentHistoricos.putExtra("Nome", strLivro);
-            ListaLivros.this.startActivity(intentHistoricos);
+            if(listHistorico.isEmpty()){
+                exibeMensagem("Alerta!", "Não há histórico para o Livro de " + livro.getNome(), 2);
+            }
+            else{
+                Intent intentHistoricos = new Intent(ListaLivros.this, ListaHistoricos.class);
+                intentHistoricos.putExtra("Nome", strLivro);
+                ListaLivros.this.startActivity(intentHistoricos);
+            }
         } else {
             return false;
         }
@@ -272,6 +287,29 @@ public class ListaLivros extends Activity {
         return lista;
     }
     //Método onCreateOptionsMenu....................................................................
+
+    public void exibeMensagem(String titulo, String msg, final int tipo) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(titulo);
+        builder.setMessage(msg);
+
+        if (tipo == 1)
+            builder.setIcon(R.drawable.ic_ok);
+        else
+            builder.setIcon(R.drawable.ic_alerta);
+
+        builder.setNeutralButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                if (tipo == 1)
+                    finish();
+            }
+        });
+
+        alerta = builder.create();
+        alerta.show();
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

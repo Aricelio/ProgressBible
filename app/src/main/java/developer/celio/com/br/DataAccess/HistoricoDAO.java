@@ -95,7 +95,7 @@ public class HistoricoDAO {
         livro = livroDAO.abrir((long)idLivro);
         SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
 
-        String sql = "Select * from Historicos where idLivro= " + idLivro;
+        String sql = "Select * from Historicos where idLivro= " + idLivro + " order by id desc";
 
         BDUtil bdUtil = new BDUtil(context);
         Cursor cursor = bdUtil.getReadableDatabase().rawQuery(sql, null);

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by aricelio on 03/02/15.
+ * Altered by aricelio on 01/03/15.
  */
 public class BDUtil extends SQLiteOpenHelper {
 
@@ -65,13 +65,16 @@ public class BDUtil extends SQLiteOpenHelper {
         Log.i(TAG, "Banco de Dados Criado");
 
         // Inserção dos dados da tabela Status.....................................
-        String ddlInsertStatus1 = "INSERT INTO Status (nome) VALUES ('Lido');";
-        String ddlInsertStatus2 = "INSERT INTO Status (nome) VALUES ('Lendo');";
-        String ddlInsertStatus3 = "INSERT INTO Status (nome) VALUES ('Vou Ler');";
+        String[] ddlInsertStatus = new String[4];
+        ddlInsertStatus[0] = "INSERT INTO Status (nome) VALUES ('Lido');";
+        ddlInsertStatus[1] = "INSERT INTO Status (nome) VALUES ('Lendo');";
+        ddlInsertStatus[2] = "INSERT INTO Status (nome) VALUES ('Vou Ler');";
+        ddlInsertStatus[3] = "INSERT INTO Status (nome) VALUES ('Relendo');";
 
-        sqLiteDatabase.execSQL(ddlInsertStatus1);
-        sqLiteDatabase.execSQL(ddlInsertStatus2);
-        sqLiteDatabase.execSQL(ddlInsertStatus3);
+        for(int i=0; i<4;i++){
+            sqLiteDatabase.execSQL(ddlInsertStatus[i]);
+        }
+
         Log.i(TAG, "Inserção dos dados da Tabela 'STATUS'");
 
         // Inserção dos dados dos  livros do antigo testamento.....................
@@ -96,7 +99,7 @@ public class BDUtil extends SQLiteOpenHelper {
         List<String> lista = new ArrayList<String>();
 
         String ddlInsertGenesis = "INSERT INTO Livros (nome, capitulos, tipo, idStatus) " +
-                "VALUES ('Gênesis',50, 'Antigo Testamento', 2);";
+                "VALUES ('Gênesis',50, 'Antigo Testamento', 3);";
         lista.add(ddlInsertGenesis);
 
         String ddlInsertExodo = "INSERT INTO Livros (nome, capitulos, tipo, idStatus) " +
@@ -168,11 +171,11 @@ public class BDUtil extends SQLiteOpenHelper {
         lista.add(ddlInsertJo);
 
         String ddlInsertSalmos = "INSERT INTO Livros (nome, capitulos, tipo, idStatus) " +
-                "VALUES ('Salmos',150, 'Antigo Testamento', 2);";
+                "VALUES ('Salmos',150, 'Antigo Testamento', 3);";
         lista.add(ddlInsertSalmos);
 
         String ddlInsertProverbios = "INSERT INTO Livros (nome, capitulos, tipo, idStatus) " +
-                "VALUES ('Provérbios',31, 'Antigo Testamento', 2);";
+                "VALUES ('Provérbios',31, 'Antigo Testamento', 3);";
         lista.add(ddlInsertProverbios);
 
         String ddlInsertEclesiastes = "INSERT INTO Livros (nome, capitulos, tipo, idStatus) " +
@@ -259,7 +262,7 @@ public class BDUtil extends SQLiteOpenHelper {
         List<String> lista = new ArrayList<String>();
 
         String ddlInsertMateus = "INSERT INTO Livros (nome, capitulos, tipo, idStatus) " +
-                "VALUES ('Mateus',28, 'Novo Testamento', 2);";
+                "VALUES ('Mateus',28, 'Novo Testamento', 3);";
         lista.add(ddlInsertMateus);
 
         String ddlInsertMarcos = "INSERT INTO Livros (nome, capitulos, tipo, idStatus) " +
