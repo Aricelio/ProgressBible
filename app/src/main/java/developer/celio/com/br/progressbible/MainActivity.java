@@ -24,7 +24,6 @@ public class MainActivity extends Activity {
     private final int[] CAP_NOVO_TEST = new int[27];
     private final String COR_VERDE = "#04B404";
     private final String COR_AMARELA = "#FFFF00";
-    private final String COR_AZUL = "#013ADF";
     private final String COR_LARANJA = "#FF8000";
 
     // Método onCreate..............................................................................
@@ -445,16 +444,21 @@ public class MainActivity extends Activity {
                 txtCapAT[i].setText(strHistorico[i]);
                 pbCapAT[i].setProgress(historico[i].getCapsLidos());
             }
-            // Senão há historico para o livro seu status é "Quero ler"
-            else
-                txtLivroAT[i].setTextColor(Color.parseColor(COR_AZUL));
-
         }
 
         // Seta os dados dos componentes da TAB Novo Testamento
         for(int i=0; i < 27; i++){
             historico[i] = historicoDAO.buscar(i+40);
             if(historico[i].getId() != 0){
+
+                if(historico[i].getCapsLidos() == CAP_NOVO_TEST[i])
+                    txtLivroNT[i].setTextColor(Color.parseColor(COR_VERDE));
+                else{
+                    if(historicoDAO.verificaOpcaoRelendo(i+1, CAP_NOVO_TEST[i]))
+                        txtLivroNT[i].setTextColor(Color.parseColor(COR_LARANJA));
+                    else
+                        txtLivroNT[i].setTextColor(Color.parseColor(COR_AMARELA));
+                }
 
                 // Calcula a porcentagem lida do livro
                 porcentagem[i] = (historico[i].getCapsLidos() * 100) / CAP_NOVO_TEST[i];
@@ -463,10 +467,6 @@ public class MainActivity extends Activity {
                 strHistorico[i] = historico[i].getCapsLidos() + "/" + CAP_NOVO_TEST[i]
                         + " - " + porcentagem[i] + " %";
 
-                if(historico[i].getCapsLidos() < CAP_NOVO_TEST[i])
-                    txtLivroNT[i].setTextColor(Color.parseColor("#ff009688"));
-                else
-                    txtLivroNT[i].setTextColor(Color.GREEN);
 
                 // Seta o texto e barra do livro
                 txtCapNT[i].setText(strHistorico[i]);

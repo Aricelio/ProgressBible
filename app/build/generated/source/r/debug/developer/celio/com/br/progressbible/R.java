@@ -1304,11 +1304,10 @@ containing a value of this type.
         public static final int ic_lendo=0x7f020035;
         public static final int ic_lido=0x7f020036;
         public static final int ic_ok=0x7f020037;
-        public static final int ic_opcoes=0x7f020038;
-        public static final int ic_relendo=0x7f020039;
-        public static final int ic_sobre=0x7f02003a;
-        public static final int ic_update=0x7f02003b;
-        public static final int ic_vouler=0x7f02003c;
+        public static final int ic_relendo=0x7f020038;
+        public static final int ic_sobre=0x7f020039;
+        public static final int ic_update=0x7f02003a;
+        public static final int ic_vouler=0x7f02003b;
     }
     public static final class id {
         public static final int action_bar=0x7f070031;

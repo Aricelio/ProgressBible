@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Item Atualizar ............................................-->
+    <item
+        android:id="@+id/menu_update_leitura"
+        android:icon="@drawable/ic_update"
+        android:showAsAction="always"
+        android:title="@string/update_leitura" />
+
+    <!-- Item Livros Lidos .........................................-->
+    <item
+        android:id="@+id/menu_opcoes"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        android:showAsAction="always"
+        android:title="Livros" >
+        <menu>
+            <!-- Item Livros Lido ........................-->
+            <item
+                android:id="@+id/menu_livros_lido"
+                android:showAsAction="ifRoom|withText"
+                android:icon="@drawable/ic_lido"
+                android:title="Lido"   />
+
+            <!-- Item Livros Lendo ........................-->
+            <item
+                android:id="@+id/menu_livros_lendo"
+                android:showAsAction="ifRoom|withText"
+                android:icon="@drawable/ic_lendo"
+                android:title="Lendo"   />
+
+            <!-- Item Livros Vou Ler .....................-->
+            <item
+                android:id="@+id/menu_livros_vouler"
+                android:showAsAction="ifRoom|withText"
+                android:icon="@drawable/ic_vouler"
+                android:title="Vou Ler"   />
+
+            <!-- Item Sobre.............................. -->
+            <item
+                android:id="@+id/menu_sobre"
+                android:icon="@drawable/ic_sobre"
+                android:showAsAction="always"
+                android:title="@string/sobre" />
+        </menu>
+    </item>
+</menu><!-- From: file:/home/aricelio/AndroidStudioProjects/ProgressBible/app/src/main/res/menu/menu_principal.xml -->

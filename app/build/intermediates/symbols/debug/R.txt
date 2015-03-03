@@ -338,11 +338,10 @@ int drawable ic_launcher 0x7f020034
 int drawable ic_lendo 0x7f020035
 int drawable ic_lido 0x7f020036
 int drawable ic_ok 0x7f020037
-int drawable ic_opcoes 0x7f020038
-int drawable ic_relendo 0x7f020039
-int drawable ic_sobre 0x7f02003a
-int drawable ic_update 0x7f02003b
-int drawable ic_vouler 0x7f02003c
+int drawable ic_relendo 0x7f020038
+int drawable ic_sobre 0x7f020039
+int drawable ic_update 0x7f02003a
+int drawable ic_vouler 0x7f02003b
 int id action_bar 0x7f070031
 int id action_bar_activity_content 0x7f070015
 int id action_bar_container 0x7f070030
