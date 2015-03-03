@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package developer.celio.com.br.progressbible;
+package developer.celio.com.br.Presentation;
 
 public final class R {
     public static final class anim {
@@ -1933,33 +1933,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background developer.celio.com.br.progressbible:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit developer.celio.com.br.progressbible:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked developer.celio.com.br.progressbible:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd developer.celio.com.br.progressbible:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft developer.celio.com.br.progressbible:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight developer.celio.com.br.progressbible:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart developer.celio.com.br.progressbible:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout developer.celio.com.br.progressbible:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions developer.celio.com.br.progressbible:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider developer.celio.com.br.progressbible:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation developer.celio.com.br.progressbible:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height developer.celio.com.br.progressbible:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll developer.celio.com.br.progressbible:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator developer.celio.com.br.progressbible:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout developer.celio.com.br.progressbible:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon developer.celio.com.br.progressbible:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle developer.celio.com.br.progressbible:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding developer.celio.com.br.progressbible:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo developer.celio.com.br.progressbible:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode developer.celio.com.br.progressbible:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme developer.celio.com.br.progressbible:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding developer.celio.com.br.progressbible:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle developer.celio.com.br.progressbible:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle developer.celio.com.br.progressbible:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle developer.celio.com.br.progressbible:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title developer.celio.com.br.progressbible:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle developer.celio.com.br.progressbible:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background developer.celio.com.br.Presentation:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit developer.celio.com.br.Presentation:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked developer.celio.com.br.Presentation:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd developer.celio.com.br.Presentation:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft developer.celio.com.br.Presentation:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight developer.celio.com.br.Presentation:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart developer.celio.com.br.Presentation:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout developer.celio.com.br.Presentation:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions developer.celio.com.br.Presentation:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider developer.celio.com.br.Presentation:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation developer.celio.com.br.Presentation:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height developer.celio.com.br.Presentation:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll developer.celio.com.br.Presentation:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator developer.celio.com.br.Presentation:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout developer.celio.com.br.Presentation:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon developer.celio.com.br.Presentation:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle developer.celio.com.br.Presentation:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding developer.celio.com.br.Presentation:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo developer.celio.com.br.Presentation:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode developer.celio.com.br.Presentation:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme developer.celio.com.br.Presentation:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding developer.celio.com.br.Presentation:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle developer.celio.com.br.Presentation:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle developer.celio.com.br.Presentation:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle developer.celio.com.br.Presentation:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title developer.celio.com.br.Presentation:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle developer.celio.com.br.Presentation:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -1999,17 +1999,17 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f010071
         };
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#background}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:background
+          @attr name developer.celio.com.br.Presentation:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2017,11 +2017,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name developer.celio.com.br.progressbible:backgroundSplit
+          @attr name developer.celio.com.br.Presentation:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2029,11 +2029,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name developer.celio.com.br.progressbible:backgroundStacked
+          @attr name developer.celio.com.br.Presentation:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2045,11 +2045,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:contentInsetEnd
+          @attr name developer.celio.com.br.Presentation:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2061,11 +2061,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:contentInsetLeft
+          @attr name developer.celio.com.br.Presentation:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2077,11 +2077,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:contentInsetRight
+          @attr name developer.celio.com.br.Presentation:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2093,21 +2093,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:contentInsetStart
+          @attr name developer.celio.com.br.Presentation:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:customNavigationLayout
+          @attr name developer.celio.com.br.Presentation:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2125,21 +2125,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name developer.celio.com.br.progressbible:displayOptions
+          @attr name developer.celio.com.br.Presentation:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#divider}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:divider
+          @attr name developer.celio.com.br.Presentation:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#elevation}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2151,11 +2151,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:elevation
+          @attr name developer.celio.com.br.Presentation:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#height}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2167,11 +2167,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:height
+          @attr name developer.celio.com.br.Presentation:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2181,51 +2181,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:hideOnContentScroll
+          @attr name developer.celio.com.br.Presentation:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:homeAsUpIndicator
+          @attr name developer.celio.com.br.Presentation:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:homeLayout
+          @attr name developer.celio.com.br.Presentation:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#icon}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:icon
+          @attr name developer.celio.com.br.Presentation:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:indeterminateProgressStyle
+          @attr name developer.celio.com.br.Presentation:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2237,21 +2237,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:itemPadding
+          @attr name developer.celio.com.br.Presentation:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#logo}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:logo
+          @attr name developer.celio.com.br.Presentation:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2265,21 +2265,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name developer.celio.com.br.progressbible:navigationMode
+          @attr name developer.celio.com.br.Presentation:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:popupTheme
+          @attr name developer.celio.com.br.Presentation:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2291,21 +2291,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:progressBarPadding
+          @attr name developer.celio.com.br.Presentation:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:progressBarStyle
+          @attr name developer.celio.com.br.Presentation:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2315,21 +2315,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:subtitle
+          @attr name developer.celio.com.br.Presentation:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:subtitleTextStyle
+          @attr name developer.celio.com.br.Presentation:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#title}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -2339,17 +2339,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:title
+          @attr name developer.celio.com.br.Presentation:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:titleTextStyle
+          @attr name developer.celio.com.br.Presentation:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -2401,12 +2401,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background developer.celio.com.br.progressbible:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit developer.celio.com.br.progressbible:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout developer.celio.com.br.progressbible:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height developer.celio.com.br.progressbible:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle developer.celio.com.br.progressbible:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle developer.celio.com.br.progressbible:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background developer.celio.com.br.Presentation:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit developer.celio.com.br.Presentation:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout developer.celio.com.br.Presentation:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height developer.celio.com.br.Presentation:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle developer.celio.com.br.Presentation:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle developer.celio.com.br.Presentation:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -2420,17 +2420,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#background}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:background
+          @attr name developer.celio.com.br.Presentation:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2438,21 +2438,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name developer.celio.com.br.progressbible:backgroundSplit
+          @attr name developer.celio.com.br.Presentation:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:closeItemLayout
+          @attr name developer.celio.com.br.Presentation:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#height}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -2464,27 +2464,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:height
+          @attr name developer.celio.com.br.Presentation:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:subtitleTextStyle
+          @attr name developer.celio.com.br.Presentation:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:titleTextStyle
+          @attr name developer.celio.com.br.Presentation:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -2493,8 +2493,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable developer.celio.com.br.progressbible:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount developer.celio.com.br.progressbible:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable developer.celio.com.br.Presentation:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount developer.celio.com.br.Presentation:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -2503,17 +2503,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:expandActivityOverflowButtonDrawable
+          @attr name developer.celio.com.br.Presentation:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -2523,7 +2523,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:initialActivityCount
+          @attr name developer.celio.com.br.Presentation:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a CompatTextView.
@@ -2532,7 +2532,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CompatTextView_textAllCaps developer.celio.com.br.progressbible:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompatTextView_textAllCaps developer.celio.com.br.Presentation:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #CompatTextView_textAllCaps
          */
@@ -2540,14 +2540,14 @@ containing a value of this type.
             0x7f01001f
         };
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#textAllCaps}
           attribute's value can be found in the {@link #CompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name developer.celio.com.br.progressbible:textAllCaps
+          @attr name developer.celio.com.br.Presentation:textAllCaps
         */
         public static final int CompatTextView_textAllCaps = 0;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -2556,14 +2556,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barSize developer.celio.com.br.progressbible:barSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color developer.celio.com.br.progressbible:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize developer.celio.com.br.progressbible:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars developer.celio.com.br.progressbible:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize developer.celio.com.br.progressbible:middleBarArrowSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars developer.celio.com.br.progressbible:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness developer.celio.com.br.progressbible:thickness}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize developer.celio.com.br.progressbible:topBottomBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barSize developer.celio.com.br.Presentation:barSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color developer.celio.com.br.Presentation:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize developer.celio.com.br.Presentation:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars developer.celio.com.br.Presentation:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_middleBarArrowSize developer.celio.com.br.Presentation:middleBarArrowSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars developer.celio.com.br.Presentation:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness developer.celio.com.br.Presentation:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_topBottomBarArrowSize developer.celio.com.br.Presentation:topBottomBarArrowSize}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_barSize
            @see #DrawerArrowToggle_color
@@ -2579,7 +2579,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027
         };
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#barSize}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#barSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2591,11 +2591,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:barSize
+          @attr name developer.celio.com.br.Presentation:barSize
         */
         public static final int DrawerArrowToggle_barSize = 6;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#color}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2606,11 +2606,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:color
+          @attr name developer.celio.com.br.Presentation:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2622,11 +2622,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:drawableSize
+          @attr name developer.celio.com.br.Presentation:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2638,11 +2638,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:gapBetweenBars
+          @attr name developer.celio.com.br.Presentation:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#middleBarArrowSize}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#middleBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2654,11 +2654,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:middleBarArrowSize
+          @attr name developer.celio.com.br.Presentation:middleBarArrowSize
         */
         public static final int DrawerArrowToggle_middleBarArrowSize = 5;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2668,11 +2668,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:spinBars
+          @attr name developer.celio.com.br.Presentation:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#thickness}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2684,11 +2684,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:thickness
+          @attr name developer.celio.com.br.Presentation:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#topBottomBarArrowSize}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#topBottomBarArrowSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -2700,7 +2700,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:topBottomBarArrowSize
+          @attr name developer.celio.com.br.Presentation:topBottomBarArrowSize
         */
         public static final int DrawerArrowToggle_topBottomBarArrowSize = 4;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -2714,10 +2714,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider developer.celio.com.br.progressbible:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding developer.celio.com.br.progressbible:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild developer.celio.com.br.progressbible:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers developer.celio.com.br.progressbible:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider developer.celio.com.br.Presentation:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding developer.celio.com.br.Presentation:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild developer.celio.com.br.Presentation:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers developer.celio.com.br.Presentation:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -2765,17 +2765,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#divider}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:divider
+          @attr name developer.celio.com.br.Presentation:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2787,11 +2787,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:dividerPadding
+          @attr name developer.celio.com.br.Presentation:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2801,11 +2801,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:measureWithLargestChild
+          @attr name developer.celio.com.br.Presentation:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -2820,7 +2820,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name developer.celio.com.br.progressbible:showDividers
+          @attr name developer.celio.com.br.Presentation:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -2959,9 +2959,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout developer.celio.com.br.progressbible:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass developer.celio.com.br.progressbible:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass developer.celio.com.br.progressbible:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout developer.celio.com.br.Presentation:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass developer.celio.com.br.Presentation:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass developer.celio.com.br.Presentation:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -2975,7 +2975,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction developer.celio.com.br.progressbible:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction developer.celio.com.br.Presentation:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -3003,17 +3003,17 @@ containing a value of this type.
             0x7f01002e
         };
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionLayout
+          @attr name developer.celio.com.br.Presentation:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3023,11 +3023,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:actionProviderClass
+          @attr name developer.celio.com.br.Presentation:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3037,7 +3037,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:actionViewClass
+          @attr name developer.celio.com.br.Presentation:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -3119,7 +3119,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -3135,7 +3135,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name developer.celio.com.br.progressbible:showAsAction
+          @attr name developer.celio.com.br.Presentation:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -3151,7 +3151,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing developer.celio.com.br.progressbible:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing developer.celio.com.br.Presentation:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -3209,7 +3209,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -3219,7 +3219,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:preserveIconSpacing
+          @attr name developer.celio.com.br.Presentation:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a PopupWindow.
@@ -3229,7 +3229,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor developer.celio.com.br.progressbible:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor developer.celio.com.br.Presentation:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -3244,7 +3244,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -3254,7 +3254,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:overlapAnchor
+          @attr name developer.celio.com.br.Presentation:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -3263,7 +3263,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor developer.celio.com.br.progressbible:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor developer.celio.com.br.Presentation:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -3271,7 +3271,7 @@ containing a value of this type.
             0x7f010031
         };
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -3281,7 +3281,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:state_above_anchor
+          @attr name developer.celio.com.br.Presentation:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a SearchView.
@@ -3294,17 +3294,17 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon developer.celio.com.br.progressbible:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon developer.celio.com.br.progressbible:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon developer.celio.com.br.progressbible:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault developer.celio.com.br.progressbible:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout developer.celio.com.br.progressbible:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground developer.celio.com.br.progressbible:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint developer.celio.com.br.progressbible:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon developer.celio.com.br.progressbible:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground developer.celio.com.br.progressbible:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout developer.celio.com.br.progressbible:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon developer.celio.com.br.progressbible:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon developer.celio.com.br.Presentation:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon developer.celio.com.br.Presentation:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon developer.celio.com.br.Presentation:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault developer.celio.com.br.Presentation:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout developer.celio.com.br.Presentation:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground developer.celio.com.br.Presentation:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint developer.celio.com.br.Presentation:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon developer.celio.com.br.Presentation:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground developer.celio.com.br.Presentation:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout developer.celio.com.br.Presentation:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon developer.celio.com.br.Presentation:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -3353,37 +3353,37 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:closeIcon
+          @attr name developer.celio.com.br.Presentation:closeIcon
         */
         public static final int SearchView_closeIcon = 7;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:commitIcon
+          @attr name developer.celio.com.br.Presentation:commitIcon
         */
         public static final int SearchView_commitIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:goIcon
+          @attr name developer.celio.com.br.Presentation:goIcon
         */
         public static final int SearchView_goIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3393,31 +3393,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:iconifiedByDefault
+          @attr name developer.celio.com.br.Presentation:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#layout}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:layout
+          @attr name developer.celio.com.br.Presentation:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:queryBackground
+          @attr name developer.celio.com.br.Presentation:queryBackground
         */
         public static final int SearchView_queryBackground = 13;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -3427,47 +3427,47 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:queryHint
+          @attr name developer.celio.com.br.Presentation:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:searchIcon
+          @attr name developer.celio.com.br.Presentation:searchIcon
         */
         public static final int SearchView_searchIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:submitBackground
+          @attr name developer.celio.com.br.Presentation:submitBackground
         */
         public static final int SearchView_submitBackground = 14;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:suggestionRowLayout
+          @attr name developer.celio.com.br.Presentation:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 12;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:voiceIcon
+          @attr name developer.celio.com.br.Presentation:voiceIcon
         */
         public static final int SearchView_voiceIcon = 10;
         /** Attributes that can be used with a Spinner.
@@ -3483,10 +3483,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled developer.celio.com.br.progressbible:disableChildrenWhenDisabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupPromptView developer.celio.com.br.progressbible:popupPromptView}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_prompt developer.celio.com.br.progressbible:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_spinnerMode developer.celio.com.br.progressbible:spinnerMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_disableChildrenWhenDisabled developer.celio.com.br.Presentation:disableChildrenWhenDisabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupPromptView developer.celio.com.br.Presentation:popupPromptView}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_prompt developer.celio.com.br.Presentation:prompt}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_spinnerMode developer.celio.com.br.Presentation:spinnerMode}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_background
            @see #Spinner_android_dropDownHorizontalOffset
@@ -3548,7 +3548,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Spinner_android_popupBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#disableChildrenWhenDisabled}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#disableChildrenWhenDisabled}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -3558,31 +3558,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:disableChildrenWhenDisabled
+          @attr name developer.celio.com.br.Presentation:disableChildrenWhenDisabled
         */
         public static final int Spinner_disableChildrenWhenDisabled = 10;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#popupPromptView}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#popupPromptView}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:popupPromptView
+          @attr name developer.celio.com.br.Presentation:popupPromptView
         */
         public static final int Spinner_popupPromptView = 9;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#prompt}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#prompt}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:prompt
+          @attr name developer.celio.com.br.Presentation:prompt
         */
         public static final int Spinner_prompt = 7;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#spinnerMode}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#spinnerMode}
           attribute's value can be found in the {@link #Spinner} array.
 
 
@@ -3595,7 +3595,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>dialog</code></td><td>0</td><td></td></tr>
 <tr><td><code>dropdown</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name developer.celio.com.br.progressbible:spinnerMode
+          @attr name developer.celio.com.br.Presentation:spinnerMode
         */
         public static final int Spinner_spinnerMode = 8;
         /** Attributes that can be used with a SwitchCompat.
@@ -3607,13 +3607,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText developer.celio.com.br.progressbible:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack developer.celio.com.br.progressbible:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth developer.celio.com.br.progressbible:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding developer.celio.com.br.progressbible:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance developer.celio.com.br.progressbible:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding developer.celio.com.br.progressbible:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track developer.celio.com.br.progressbible:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText developer.celio.com.br.Presentation:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack developer.celio.com.br.Presentation:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth developer.celio.com.br.Presentation:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding developer.celio.com.br.Presentation:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance developer.celio.com.br.Presentation:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding developer.celio.com.br.Presentation:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track developer.celio.com.br.Presentation:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -3650,7 +3650,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#showText}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3660,11 +3660,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:showText
+          @attr name developer.celio.com.br.Presentation:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3674,11 +3674,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:splitTrack
+          @attr name developer.celio.com.br.Presentation:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3690,11 +3690,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:switchMinWidth
+          @attr name developer.celio.com.br.Presentation:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3706,21 +3706,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:switchPadding
+          @attr name developer.celio.com.br.Presentation:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:switchTextAppearance
+          @attr name developer.celio.com.br.Presentation:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -3732,17 +3732,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:thumbTextPadding
+          @attr name developer.celio.com.br.Presentation:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#track}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:track
+          @attr name developer.celio.com.br.Presentation:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a Theme.
@@ -3751,89 +3751,89 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Theme_actionBarDivider developer.celio.com.br.progressbible:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarItemBackground developer.celio.com.br.progressbible:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarPopupTheme developer.celio.com.br.progressbible:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSize developer.celio.com.br.progressbible:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarSplitStyle developer.celio.com.br.progressbible:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarStyle developer.celio.com.br.progressbible:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabBarStyle developer.celio.com.br.progressbible:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabStyle developer.celio.com.br.progressbible:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTabTextStyle developer.celio.com.br.progressbible:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarTheme developer.celio.com.br.progressbible:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionBarWidgetTheme developer.celio.com.br.progressbible:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionButtonStyle developer.celio.com.br.progressbible:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionDropDownStyle developer.celio.com.br.progressbible:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextAppearance developer.celio.com.br.progressbible:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionMenuTextColor developer.celio.com.br.progressbible:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeBackground developer.celio.com.br.progressbible:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle developer.celio.com.br.progressbible:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCloseDrawable developer.celio.com.br.progressbible:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCopyDrawable developer.celio.com.br.progressbible:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeCutDrawable developer.celio.com.br.progressbible:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeFindDrawable developer.celio.com.br.progressbible:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePasteDrawable developer.celio.com.br.progressbible:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModePopupWindowStyle developer.celio.com.br.progressbible:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable developer.celio.com.br.progressbible:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeShareDrawable developer.celio.com.br.progressbible:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeSplitBackground developer.celio.com.br.progressbible:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeStyle developer.celio.com.br.progressbible:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable developer.celio.com.br.progressbible:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowButtonStyle developer.celio.com.br.progressbible:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_actionOverflowMenuStyle developer.celio.com.br.progressbible:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_activityChooserViewStyle developer.celio.com.br.progressbible:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarDivider developer.celio.com.br.Presentation:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarItemBackground developer.celio.com.br.Presentation:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarPopupTheme developer.celio.com.br.Presentation:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSize developer.celio.com.br.Presentation:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarSplitStyle developer.celio.com.br.Presentation:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarStyle developer.celio.com.br.Presentation:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabBarStyle developer.celio.com.br.Presentation:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabStyle developer.celio.com.br.Presentation:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTabTextStyle developer.celio.com.br.Presentation:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarTheme developer.celio.com.br.Presentation:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionBarWidgetTheme developer.celio.com.br.Presentation:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionButtonStyle developer.celio.com.br.Presentation:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionDropDownStyle developer.celio.com.br.Presentation:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextAppearance developer.celio.com.br.Presentation:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionMenuTextColor developer.celio.com.br.Presentation:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeBackground developer.celio.com.br.Presentation:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseButtonStyle developer.celio.com.br.Presentation:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCloseDrawable developer.celio.com.br.Presentation:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCopyDrawable developer.celio.com.br.Presentation:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeCutDrawable developer.celio.com.br.Presentation:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeFindDrawable developer.celio.com.br.Presentation:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePasteDrawable developer.celio.com.br.Presentation:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModePopupWindowStyle developer.celio.com.br.Presentation:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSelectAllDrawable developer.celio.com.br.Presentation:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeShareDrawable developer.celio.com.br.Presentation:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeSplitBackground developer.celio.com.br.Presentation:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeStyle developer.celio.com.br.Presentation:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionModeWebSearchDrawable developer.celio.com.br.Presentation:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowButtonStyle developer.celio.com.br.Presentation:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_actionOverflowMenuStyle developer.celio.com.br.Presentation:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_activityChooserViewStyle developer.celio.com.br.Presentation:activityChooserViewStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #Theme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarButtonStyle developer.celio.com.br.progressbible:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_buttonBarStyle developer.celio.com.br.progressbible:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorAccent developer.celio.com.br.progressbible:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorButtonNormal developer.celio.com.br.progressbible:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlActivated developer.celio.com.br.progressbible:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlHighlight developer.celio.com.br.progressbible:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorControlNormal developer.celio.com.br.progressbible:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimary developer.celio.com.br.progressbible:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorPrimaryDark developer.celio.com.br.progressbible:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_colorSwitchThumbNormal developer.celio.com.br.progressbible:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerHorizontal developer.celio.com.br.progressbible:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dividerVertical developer.celio.com.br.progressbible:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropDownListViewStyle developer.celio.com.br.progressbible:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight developer.celio.com.br.progressbible:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextBackground developer.celio.com.br.progressbible:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_editTextColor developer.celio.com.br.progressbible:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_homeAsUpIndicator developer.celio.com.br.progressbible:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator developer.celio.com.br.progressbible:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPopupWindowStyle developer.celio.com.br.progressbible:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeight developer.celio.com.br.progressbible:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge developer.celio.com.br.progressbible:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall developer.celio.com.br.progressbible:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft developer.celio.com.br.progressbible:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight developer.celio.com.br.progressbible:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelBackground developer.celio.com.br.progressbible:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListTheme developer.celio.com.br.progressbible:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_panelMenuListWidth developer.celio.com.br.progressbible:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupMenuStyle developer.celio.com.br.progressbible:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_popupWindowStyle developer.celio.com.br.progressbible:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_searchViewStyle developer.celio.com.br.progressbible:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackground developer.celio.com.br.progressbible:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless developer.celio.com.br.progressbible:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle developer.celio.com.br.progressbible:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_spinnerStyle developer.celio.com.br.progressbible:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_switchStyle developer.celio.com.br.progressbible:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu developer.celio.com.br.progressbible:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItem developer.celio.com.br.progressbible:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceListItemSmall developer.celio.com.br.progressbible:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle developer.celio.com.br.progressbible:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle developer.celio.com.br.progressbible:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu developer.celio.com.br.progressbible:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_textColorSearchUrl developer.celio.com.br.progressbible:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle developer.celio.com.br.progressbible:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_toolbarStyle developer.celio.com.br.progressbible:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBar developer.celio.com.br.progressbible:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionBarOverlay developer.celio.com.br.progressbible:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowActionModeOverlay developer.celio.com.br.progressbible:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMajor developer.celio.com.br.progressbible:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedHeightMinor developer.celio.com.br.progressbible:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMajor developer.celio.com.br.progressbible:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Theme_windowFixedWidthMinor developer.celio.com.br.progressbible:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarButtonStyle developer.celio.com.br.Presentation:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_buttonBarStyle developer.celio.com.br.Presentation:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorAccent developer.celio.com.br.Presentation:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorButtonNormal developer.celio.com.br.Presentation:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlActivated developer.celio.com.br.Presentation:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlHighlight developer.celio.com.br.Presentation:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorControlNormal developer.celio.com.br.Presentation:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimary developer.celio.com.br.Presentation:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorPrimaryDark developer.celio.com.br.Presentation:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_colorSwitchThumbNormal developer.celio.com.br.Presentation:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerHorizontal developer.celio.com.br.Presentation:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dividerVertical developer.celio.com.br.Presentation:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropDownListViewStyle developer.celio.com.br.Presentation:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_dropdownListPreferredItemHeight developer.celio.com.br.Presentation:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextBackground developer.celio.com.br.Presentation:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_editTextColor developer.celio.com.br.Presentation:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_homeAsUpIndicator developer.celio.com.br.Presentation:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listChoiceBackgroundIndicator developer.celio.com.br.Presentation:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPopupWindowStyle developer.celio.com.br.Presentation:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeight developer.celio.com.br.Presentation:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightLarge developer.celio.com.br.Presentation:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemHeightSmall developer.celio.com.br.Presentation:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingLeft developer.celio.com.br.Presentation:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_listPreferredItemPaddingRight developer.celio.com.br.Presentation:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelBackground developer.celio.com.br.Presentation:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListTheme developer.celio.com.br.Presentation:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_panelMenuListWidth developer.celio.com.br.Presentation:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupMenuStyle developer.celio.com.br.Presentation:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_popupWindowStyle developer.celio.com.br.Presentation:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_searchViewStyle developer.celio.com.br.Presentation:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackground developer.celio.com.br.Presentation:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_selectableItemBackgroundBorderless developer.celio.com.br.Presentation:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerDropDownItemStyle developer.celio.com.br.Presentation:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_spinnerStyle developer.celio.com.br.Presentation:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_switchStyle developer.celio.com.br.Presentation:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceLargePopupMenu developer.celio.com.br.Presentation:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItem developer.celio.com.br.Presentation:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceListItemSmall developer.celio.com.br.Presentation:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultSubtitle developer.celio.com.br.Presentation:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSearchResultTitle developer.celio.com.br.Presentation:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textAppearanceSmallPopupMenu developer.celio.com.br.Presentation:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_textColorSearchUrl developer.celio.com.br.Presentation:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarNavigationButtonStyle developer.celio.com.br.Presentation:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_toolbarStyle developer.celio.com.br.Presentation:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBar developer.celio.com.br.Presentation:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionBarOverlay developer.celio.com.br.Presentation:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowActionModeOverlay developer.celio.com.br.Presentation:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMajor developer.celio.com.br.Presentation:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedHeightMinor developer.celio.com.br.Presentation:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMajor developer.celio.com.br.Presentation:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Theme_windowFixedWidthMinor developer.celio.com.br.Presentation:windowFixedWidthMinor}</code></td><td></td></tr>
            </table>
            @see #Theme_actionBarDivider
            @see #Theme_actionBarItemBackground
@@ -3943,37 +3943,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010097, 0x7f010098, 0x7f010099
         };
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionBarDivider
+          @attr name developer.celio.com.br.Presentation:actionBarDivider
         */
         public static final int Theme_actionBarDivider = 19;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionBarItemBackground
+          @attr name developer.celio.com.br.Presentation:actionBarItemBackground
         */
         public static final int Theme_actionBarItemBackground = 20;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionBarPopupTheme
+          @attr name developer.celio.com.br.Presentation:actionBarPopupTheme
         */
         public static final int Theme_actionBarPopupTheme = 13;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionBarSize}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -3993,111 +3993,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name developer.celio.com.br.progressbible:actionBarSize
+          @attr name developer.celio.com.br.Presentation:actionBarSize
         */
         public static final int Theme_actionBarSize = 18;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionBarSplitStyle
+          @attr name developer.celio.com.br.Presentation:actionBarSplitStyle
         */
         public static final int Theme_actionBarSplitStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionBarStyle
+          @attr name developer.celio.com.br.Presentation:actionBarStyle
         */
         public static final int Theme_actionBarStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionBarTabBarStyle
+          @attr name developer.celio.com.br.Presentation:actionBarTabBarStyle
         */
         public static final int Theme_actionBarTabBarStyle = 9;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionBarTabStyle
+          @attr name developer.celio.com.br.Presentation:actionBarTabStyle
         */
         public static final int Theme_actionBarTabStyle = 8;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionBarTabTextStyle
+          @attr name developer.celio.com.br.Presentation:actionBarTabTextStyle
         */
         public static final int Theme_actionBarTabTextStyle = 10;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionBarTheme
+          @attr name developer.celio.com.br.Presentation:actionBarTheme
         */
         public static final int Theme_actionBarTheme = 16;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionBarWidgetTheme
+          @attr name developer.celio.com.br.Presentation:actionBarWidgetTheme
         */
         public static final int Theme_actionBarWidgetTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionButtonStyle
+          @attr name developer.celio.com.br.Presentation:actionButtonStyle
         */
         public static final int Theme_actionButtonStyle = 43;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionDropDownStyle
+          @attr name developer.celio.com.br.Presentation:actionDropDownStyle
         */
         public static final int Theme_actionDropDownStyle = 38;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionMenuTextAppearance
+          @attr name developer.celio.com.br.Presentation:actionMenuTextAppearance
         */
         public static final int Theme_actionMenuTextAppearance = 21;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4105,167 +4105,167 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionMenuTextColor
+          @attr name developer.celio.com.br.Presentation:actionMenuTextColor
         */
         public static final int Theme_actionMenuTextColor = 22;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModeBackground
+          @attr name developer.celio.com.br.Presentation:actionModeBackground
         */
         public static final int Theme_actionModeBackground = 25;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModeCloseButtonStyle
+          @attr name developer.celio.com.br.Presentation:actionModeCloseButtonStyle
         */
         public static final int Theme_actionModeCloseButtonStyle = 24;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModeCloseDrawable
+          @attr name developer.celio.com.br.Presentation:actionModeCloseDrawable
         */
         public static final int Theme_actionModeCloseDrawable = 27;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModeCopyDrawable
+          @attr name developer.celio.com.br.Presentation:actionModeCopyDrawable
         */
         public static final int Theme_actionModeCopyDrawable = 29;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModeCutDrawable
+          @attr name developer.celio.com.br.Presentation:actionModeCutDrawable
         */
         public static final int Theme_actionModeCutDrawable = 28;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModeFindDrawable
+          @attr name developer.celio.com.br.Presentation:actionModeFindDrawable
         */
         public static final int Theme_actionModeFindDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModePasteDrawable
+          @attr name developer.celio.com.br.Presentation:actionModePasteDrawable
         */
         public static final int Theme_actionModePasteDrawable = 30;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModePopupWindowStyle
+          @attr name developer.celio.com.br.Presentation:actionModePopupWindowStyle
         */
         public static final int Theme_actionModePopupWindowStyle = 35;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModeSelectAllDrawable
+          @attr name developer.celio.com.br.Presentation:actionModeSelectAllDrawable
         */
         public static final int Theme_actionModeSelectAllDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModeShareDrawable
+          @attr name developer.celio.com.br.Presentation:actionModeShareDrawable
         */
         public static final int Theme_actionModeShareDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModeSplitBackground
+          @attr name developer.celio.com.br.Presentation:actionModeSplitBackground
         */
         public static final int Theme_actionModeSplitBackground = 26;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModeStyle
+          @attr name developer.celio.com.br.Presentation:actionModeStyle
         */
         public static final int Theme_actionModeStyle = 23;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionModeWebSearchDrawable
+          @attr name developer.celio.com.br.Presentation:actionModeWebSearchDrawable
         */
         public static final int Theme_actionModeWebSearchDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionOverflowButtonStyle
+          @attr name developer.celio.com.br.Presentation:actionOverflowButtonStyle
         */
         public static final int Theme_actionOverflowButtonStyle = 11;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:actionOverflowMenuStyle
+          @attr name developer.celio.com.br.Presentation:actionOverflowMenuStyle
         */
         public static final int Theme_actionOverflowMenuStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:activityChooserViewStyle
+          @attr name developer.celio.com.br.Presentation:activityChooserViewStyle
         */
         public static final int Theme_activityChooserViewStyle = 50;
         /**
@@ -4275,27 +4275,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Theme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:buttonBarButtonStyle
+          @attr name developer.celio.com.br.Presentation:buttonBarButtonStyle
         */
         public static final int Theme_buttonBarButtonStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:buttonBarStyle
+          @attr name developer.celio.com.br.Presentation:buttonBarStyle
         */
         public static final int Theme_buttonBarStyle = 44;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#colorAccent}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4306,11 +4306,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:colorAccent
+          @attr name developer.celio.com.br.Presentation:colorAccent
         */
         public static final int Theme_colorAccent = 77;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4321,11 +4321,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:colorButtonNormal
+          @attr name developer.celio.com.br.Presentation:colorButtonNormal
         */
         public static final int Theme_colorButtonNormal = 81;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4336,11 +4336,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:colorControlActivated
+          @attr name developer.celio.com.br.Presentation:colorControlActivated
         */
         public static final int Theme_colorControlActivated = 79;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4351,11 +4351,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:colorControlHighlight
+          @attr name developer.celio.com.br.Presentation:colorControlHighlight
         */
         public static final int Theme_colorControlHighlight = 80;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4366,11 +4366,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:colorControlNormal
+          @attr name developer.celio.com.br.Presentation:colorControlNormal
         */
         public static final int Theme_colorControlNormal = 78;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#colorPrimary}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4381,11 +4381,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:colorPrimary
+          @attr name developer.celio.com.br.Presentation:colorPrimary
         */
         public static final int Theme_colorPrimary = 75;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4396,11 +4396,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:colorPrimaryDark
+          @attr name developer.celio.com.br.Presentation:colorPrimaryDark
         */
         public static final int Theme_colorPrimaryDark = 76;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4411,41 +4411,41 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:colorSwitchThumbNormal
+          @attr name developer.celio.com.br.Presentation:colorSwitchThumbNormal
         */
         public static final int Theme_colorSwitchThumbNormal = 82;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:dividerHorizontal
+          @attr name developer.celio.com.br.Presentation:dividerHorizontal
         */
         public static final int Theme_dividerHorizontal = 49;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#dividerVertical}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:dividerVertical
+          @attr name developer.celio.com.br.Presentation:dividerVertical
         */
         public static final int Theme_dividerVertical = 48;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:dropDownListViewStyle
+          @attr name developer.celio.com.br.Presentation:dropDownListViewStyle
         */
         public static final int Theme_dropDownListViewStyle = 67;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4457,21 +4457,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:dropdownListPreferredItemHeight
+          @attr name developer.celio.com.br.Presentation:dropdownListPreferredItemHeight
         */
         public static final int Theme_dropdownListPreferredItemHeight = 39;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#editTextBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:editTextBackground
+          @attr name developer.celio.com.br.Presentation:editTextBackground
         */
         public static final int Theme_editTextBackground = 56;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#editTextColor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4479,41 +4479,41 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name developer.celio.com.br.progressbible:editTextColor
+          @attr name developer.celio.com.br.Presentation:editTextColor
         */
         public static final int Theme_editTextColor = 55;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:homeAsUpIndicator
+          @attr name developer.celio.com.br.Presentation:homeAsUpIndicator
         */
         public static final int Theme_homeAsUpIndicator = 42;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:listChoiceBackgroundIndicator
+          @attr name developer.celio.com.br.Presentation:listChoiceBackgroundIndicator
         */
         public static final int Theme_listChoiceBackgroundIndicator = 74;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:listPopupWindowStyle
+          @attr name developer.celio.com.br.Presentation:listPopupWindowStyle
         */
         public static final int Theme_listPopupWindowStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4525,11 +4525,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:listPreferredItemHeight
+          @attr name developer.celio.com.br.Presentation:listPreferredItemHeight
         */
         public static final int Theme_listPreferredItemHeight = 62;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4541,11 +4541,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:listPreferredItemHeightLarge
+          @attr name developer.celio.com.br.Presentation:listPreferredItemHeightLarge
         */
         public static final int Theme_listPreferredItemHeightLarge = 64;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4557,11 +4557,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:listPreferredItemHeightSmall
+          @attr name developer.celio.com.br.Presentation:listPreferredItemHeightSmall
         */
         public static final int Theme_listPreferredItemHeightSmall = 63;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4573,11 +4573,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:listPreferredItemPaddingLeft
+          @attr name developer.celio.com.br.Presentation:listPreferredItemPaddingLeft
         */
         public static final int Theme_listPreferredItemPaddingLeft = 65;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4589,31 +4589,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:listPreferredItemPaddingRight
+          @attr name developer.celio.com.br.Presentation:listPreferredItemPaddingRight
         */
         public static final int Theme_listPreferredItemPaddingRight = 66;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#panelBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:panelBackground
+          @attr name developer.celio.com.br.Presentation:panelBackground
         */
         public static final int Theme_panelBackground = 71;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:panelMenuListTheme
+          @attr name developer.celio.com.br.Presentation:panelMenuListTheme
         */
         public static final int Theme_panelMenuListTheme = 73;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4625,151 +4625,151 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:panelMenuListWidth
+          @attr name developer.celio.com.br.Presentation:panelMenuListWidth
         */
         public static final int Theme_panelMenuListWidth = 72;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:popupMenuStyle
+          @attr name developer.celio.com.br.Presentation:popupMenuStyle
         */
         public static final int Theme_popupMenuStyle = 53;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:popupWindowStyle
+          @attr name developer.celio.com.br.Presentation:popupWindowStyle
         */
         public static final int Theme_popupWindowStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:searchViewStyle
+          @attr name developer.celio.com.br.Presentation:searchViewStyle
         */
         public static final int Theme_searchViewStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:selectableItemBackground
+          @attr name developer.celio.com.br.Presentation:selectableItemBackground
         */
         public static final int Theme_selectableItemBackground = 46;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:selectableItemBackgroundBorderless
+          @attr name developer.celio.com.br.Presentation:selectableItemBackgroundBorderless
         */
         public static final int Theme_selectableItemBackgroundBorderless = 47;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:spinnerDropDownItemStyle
+          @attr name developer.celio.com.br.Presentation:spinnerDropDownItemStyle
         */
         public static final int Theme_spinnerDropDownItemStyle = 41;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:spinnerStyle
+          @attr name developer.celio.com.br.Presentation:spinnerStyle
         */
         public static final int Theme_spinnerStyle = 40;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#switchStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:switchStyle
+          @attr name developer.celio.com.br.Presentation:switchStyle
         */
         public static final int Theme_switchStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:textAppearanceLargePopupMenu
+          @attr name developer.celio.com.br.Presentation:textAppearanceLargePopupMenu
         */
         public static final int Theme_textAppearanceLargePopupMenu = 36;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:textAppearanceListItem
+          @attr name developer.celio.com.br.Presentation:textAppearanceListItem
         */
         public static final int Theme_textAppearanceListItem = 69;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:textAppearanceListItemSmall
+          @attr name developer.celio.com.br.Presentation:textAppearanceListItemSmall
         */
         public static final int Theme_textAppearanceListItemSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:textAppearanceSearchResultSubtitle
+          @attr name developer.celio.com.br.Presentation:textAppearanceSearchResultSubtitle
         */
         public static final int Theme_textAppearanceSearchResultSubtitle = 59;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:textAppearanceSearchResultTitle
+          @attr name developer.celio.com.br.Presentation:textAppearanceSearchResultTitle
         */
         public static final int Theme_textAppearanceSearchResultTitle = 58;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:textAppearanceSmallPopupMenu
+          @attr name developer.celio.com.br.Presentation:textAppearanceSmallPopupMenu
         */
         public static final int Theme_textAppearanceSmallPopupMenu = 37;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4777,31 +4777,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name developer.celio.com.br.progressbible:textColorSearchUrl
+          @attr name developer.celio.com.br.Presentation:textColorSearchUrl
         */
         public static final int Theme_textColorSearchUrl = 60;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:toolbarNavigationButtonStyle
+          @attr name developer.celio.com.br.Presentation:toolbarNavigationButtonStyle
         */
         public static final int Theme_toolbarNavigationButtonStyle = 52;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #Theme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:toolbarStyle
+          @attr name developer.celio.com.br.Presentation:toolbarStyle
         */
         public static final int Theme_toolbarStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#windowActionBar}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4811,11 +4811,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:windowActionBar
+          @attr name developer.celio.com.br.Presentation:windowActionBar
         */
         public static final int Theme_windowActionBar = 1;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4825,11 +4825,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:windowActionBarOverlay
+          @attr name developer.celio.com.br.Presentation:windowActionBarOverlay
         */
         public static final int Theme_windowActionBarOverlay = 2;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4839,11 +4839,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:windowActionModeOverlay
+          @attr name developer.celio.com.br.Presentation:windowActionModeOverlay
         */
         public static final int Theme_windowActionModeOverlay = 3;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4858,11 +4858,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:windowFixedHeightMajor
+          @attr name developer.celio.com.br.Presentation:windowFixedHeightMajor
         */
         public static final int Theme_windowFixedHeightMajor = 7;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4877,11 +4877,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:windowFixedHeightMinor
+          @attr name developer.celio.com.br.Presentation:windowFixedHeightMinor
         */
         public static final int Theme_windowFixedHeightMinor = 5;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4896,11 +4896,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:windowFixedWidthMajor
+          @attr name developer.celio.com.br.Presentation:windowFixedWidthMajor
         */
         public static final int Theme_windowFixedWidthMajor = 4;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #Theme} array.
 
 
@@ -4915,7 +4915,7 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:windowFixedWidthMinor
+          @attr name developer.celio.com.br.Presentation:windowFixedWidthMinor
         */
         public static final int Theme_windowFixedWidthMinor = 6;
         /** Attributes that can be used with a Toolbar.
@@ -4926,26 +4926,26 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription developer.celio.com.br.progressbible:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon developer.celio.com.br.progressbible:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd developer.celio.com.br.progressbible:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft developer.celio.com.br.progressbible:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight developer.celio.com.br.progressbible:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart developer.celio.com.br.progressbible:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight developer.celio.com.br.progressbible:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription developer.celio.com.br.progressbible:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon developer.celio.com.br.progressbible:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme developer.celio.com.br.progressbible:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle developer.celio.com.br.progressbible:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance developer.celio.com.br.progressbible:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_theme developer.celio.com.br.progressbible:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title developer.celio.com.br.progressbible:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom developer.celio.com.br.progressbible:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd developer.celio.com.br.progressbible:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart developer.celio.com.br.progressbible:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop developer.celio.com.br.progressbible:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins developer.celio.com.br.progressbible:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance developer.celio.com.br.progressbible:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription developer.celio.com.br.Presentation:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon developer.celio.com.br.Presentation:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd developer.celio.com.br.Presentation:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft developer.celio.com.br.Presentation:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight developer.celio.com.br.Presentation:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart developer.celio.com.br.Presentation:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight developer.celio.com.br.Presentation:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription developer.celio.com.br.Presentation:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon developer.celio.com.br.Presentation:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme developer.celio.com.br.Presentation:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle developer.celio.com.br.Presentation:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance developer.celio.com.br.Presentation:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_theme developer.celio.com.br.Presentation:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title developer.celio.com.br.Presentation:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom developer.celio.com.br.Presentation:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd developer.celio.com.br.Presentation:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart developer.celio.com.br.Presentation:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop developer.celio.com.br.Presentation:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins developer.celio.com.br.Presentation:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance developer.celio.com.br.Presentation:titleTextAppearance}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -4991,7 +4991,7 @@ containing a value of this type.
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5001,21 +5001,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:collapseContentDescription
+          @attr name developer.celio.com.br.Presentation:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:collapseIcon
+          @attr name developer.celio.com.br.Presentation:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5027,11 +5027,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:contentInsetEnd
+          @attr name developer.celio.com.br.Presentation:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 5;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5043,11 +5043,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:contentInsetLeft
+          @attr name developer.celio.com.br.Presentation:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 6;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5059,11 +5059,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:contentInsetRight
+          @attr name developer.celio.com.br.Presentation:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 7;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5075,11 +5075,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:contentInsetStart
+          @attr name developer.celio.com.br.Presentation:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 4;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5091,11 +5091,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:maxButtonHeight
+          @attr name developer.celio.com.br.Presentation:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 16;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5105,31 +5105,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:navigationContentDescription
+          @attr name developer.celio.com.br.Presentation:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:navigationIcon
+          @attr name developer.celio.com.br.Presentation:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:popupTheme
+          @attr name developer.celio.com.br.Presentation:popupTheme
         */
         public static final int Toolbar_popupTheme = 8;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5139,31 +5139,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:subtitle
+          @attr name developer.celio.com.br.Presentation:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:subtitleTextAppearance
+          @attr name developer.celio.com.br.Presentation:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#theme}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#theme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:theme
+          @attr name developer.celio.com.br.Presentation:theme
         */
         public static final int Toolbar_theme = 17;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#title}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5173,11 +5173,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:title
+          @attr name developer.celio.com.br.Presentation:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5189,11 +5189,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:titleMarginBottom
+          @attr name developer.celio.com.br.Presentation:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 15;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5205,11 +5205,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:titleMarginEnd
+          @attr name developer.celio.com.br.Presentation:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5221,11 +5221,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:titleMarginStart
+          @attr name developer.celio.com.br.Presentation:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 12;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5237,11 +5237,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:titleMarginTop
+          @attr name developer.celio.com.br.Presentation:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 14;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -5253,17 +5253,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:titleMargins
+          @attr name developer.celio.com.br.Presentation:titleMargins
         */
         public static final int Toolbar_titleMargins = 11;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name developer.celio.com.br.progressbible:titleTextAppearance
+          @attr name developer.celio.com.br.Presentation:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 9;
         /** Attributes that can be used with a View.
@@ -5273,8 +5273,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd developer.celio.com.br.progressbible:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart developer.celio.com.br.progressbible:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd developer.celio.com.br.Presentation:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart developer.celio.com.br.Presentation:paddingStart}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_paddingEnd
@@ -5290,7 +5290,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int View_android_focusable = 0;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5302,11 +5302,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:paddingEnd
+          @attr name developer.celio.com.br.Presentation:paddingEnd
         */
         public static final int View_paddingEnd = 2;
         /**
-          <p>This symbol is the offset where the {@link developer.celio.com.br.progressbible.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link developer.celio.com.br.Presentation.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -5318,7 +5318,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name developer.celio.com.br.progressbible:paddingStart
+          @attr name developer.celio.com.br.Presentation:paddingStart
         */
         public static final int View_paddingStart = 1;
         /** Attributes that can be used with a ViewStubCompat.

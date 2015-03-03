@@ -25,7 +25,7 @@ MERGED from com.android.support:support-v4:21.0.3:16:5
 		ADDED from AndroidManifest.xml:7:9
 	android:theme
 		ADDED from AndroidManifest.xml:9:9
-activity#developer.celio.com.br.progressbible.MainActivity
+activity#developer.celio.com.br.Presentation.MainActivity
 ADDED from AndroidManifest.xml:10:9
 	android:label
 		ADDED from AndroidManifest.xml:12:13
@@ -41,43 +41,43 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:16:17
 	android:name
 		ADDED from AndroidManifest.xml:16:27
-activity#developer.celio.com.br.progressbible.ListaLivros
+activity#developer.celio.com.br.Presentation.ListaLivros
 ADDED from AndroidManifest.xml:19:9
 	android:label
 		ADDED from AndroidManifest.xml:21:13
 	android:name
 		ADDED from AndroidManifest.xml:20:13
-activity#developer.celio.com.br.progressbible.HistoricoLeitura
+activity#developer.celio.com.br.Presentation.HistoricoLeitura
 ADDED from AndroidManifest.xml:23:9
 	android:label
 		ADDED from AndroidManifest.xml:25:13
 	android:name
 		ADDED from AndroidManifest.xml:24:13
-activity#developer.celio.com.br.progressbible.LivrosLidos
+activity#developer.celio.com.br.Presentation.LivrosLidos
 ADDED from AndroidManifest.xml:27:9
 	android:label
 		ADDED from AndroidManifest.xml:29:13
 	android:name
 		ADDED from AndroidManifest.xml:28:13
-activity#developer.celio.com.br.progressbible.LivrosLendo
+activity#developer.celio.com.br.Presentation.LivrosLendo
 ADDED from AndroidManifest.xml:31:9
 	android:label
 		ADDED from AndroidManifest.xml:33:13
 	android:name
 		ADDED from AndroidManifest.xml:32:13
-activity#developer.celio.com.br.progressbible.ListaHistoricos
+activity#developer.celio.com.br.Presentation.ListaHistoricos
 ADDED from AndroidManifest.xml:35:9
 	android:label
 		ADDED from AndroidManifest.xml:37:13
 	android:name
 		ADDED from AndroidManifest.xml:36:13
-activity#developer.celio.com.br.progressbible.LivrosVouLer
+activity#developer.celio.com.br.Presentation.LivrosVouLer
 ADDED from AndroidManifest.xml:39:9
 	android:label
 		ADDED from AndroidManifest.xml:41:13
 	android:name
 		ADDED from AndroidManifest.xml:40:13
-activity#developer.celio.com.br.progressbible.Sobre
+activity#developer.celio.com.br.Presentation.Sobre
 ADDED from AndroidManifest.xml:43:9
 	android:label
 		ADDED from AndroidManifest.xml:45:13

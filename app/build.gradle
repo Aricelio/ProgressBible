@@ -5,7 +5,7 @@ android {
     buildToolsVersion "20.0.0"
 
     defaultConfig {
-        applicationId "developer.celio.com.br.progressbible"
+        applicationId "developer.celio.com.br.Presentation"
         minSdkVersion 15
         targetSdkVersion 21
         versionCode 1
