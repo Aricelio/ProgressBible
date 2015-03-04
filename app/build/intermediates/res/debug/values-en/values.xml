@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/aricelio/AndroidStudioProjects/ProgressBible/app/src/main/res/values-en/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">ProgressBible</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menuEditarLeitura">Edit reading</string>
+    <string name="sobre">About</string>
+    <string name="title_activity_historico_leitura">History of reading</string>
+    <string name="title_activity_lista_historicos">History</string>
+    <string name="title_activity_lista_livros">Select the book:</string>
+    <string name="title_activity_livros_lendo">Reading</string>
+    <string name="title_activity_livros_lidos">Read books</string>
+    <string name="title_activity_livros_vou_ler">I\'ll read</string>
+    <string name="title_activity_sobre">About the ProgressBible</string>
+    <string name="update_leitura">Update reading</string>
+</resources>
