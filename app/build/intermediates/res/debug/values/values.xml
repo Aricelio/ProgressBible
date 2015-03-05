@@ -165,7 +165,11 @@
     <string name="app_name">ProgressBible</string>
     <string name="hello_world">Hello world!</string>
     <string name="menuEditarLeitura">Editar Leitura</string>
-    <string name="sobre">Sobre</string>
+    <string name="menuLendo">Lendo</string>
+    <string name="menuLido">Lido</string>
+    <string name="menuQueroler">Quero ler</string>
+    <string name="menuRelendo">Relendo</string>
+    <string name="menuSobre">Sobre</string>
     <string name="title_activity_historico_leitura">Histórico de Leitura</string>
     <string name="title_activity_lista_historicos">Historico</string>
     <string name="title_activity_lista_livros">Selecione o Livro:</string>

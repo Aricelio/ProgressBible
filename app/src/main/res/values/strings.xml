@@ -6,9 +6,17 @@
     <string name="action_settings">Configurações</string>
 
     <!-- Strings para os itens do menu -->
-    <string name="sobre">Sobre</string>
+    <string name="menuSobre">Sobre</string>
     <string name="update_leitura">Atualizar Leitura</string>
     <string name="menuEditarLeitura">Editar Leitura</string>
+    <string name="menuLendo">Lendo</string>
+    <string name="menuQueroler">Quero ler</string>
+    <string name="menuLido">Lido</string>
+    <string name="menuRelendo">Relendo</string>
+
+    <!-- Strings para os nomes das TABs -->
+    <string name="tabAntigoTestamento">Antigo Testamento</string>
+    <string name="tabNovoTestamento">Novo Testamento</string>
 
     <!-- Strings dos nomes das Activitis -->
     <string name="title_activity_lista_livros">Selecione o Livro:</string>

@@ -12,42 +12,42 @@
         android:id="@+id/menu_opcoes"
         android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
         android:showAsAction="always"
-        android:title="Livros" >
+        android:title="Opções" >
         <menu>
             <!-- Item Livros Lido ........................-->
             <item
                 android:id="@+id/menu_livros_lido"
                 android:showAsAction="ifRoom|withText"
                 android:icon="@drawable/ic_lido"
-                android:title="Lido"   />
+                android:title="@string/menuLido"   />
 
             <!-- Item Livros Lendo ........................-->
             <item
                 android:id="@+id/menu_livros_lendo"
                 android:showAsAction="ifRoom|withText"
                 android:icon="@drawable/ic_lendo"
-                android:title="Lendo"   />
+                android:title="@string/menuLendo"   />
 
-            <!-- Item Livros Vou Ler .....................-->
+            <!-- Item Livros Quero Ler .....................-->
             <item
                 android:id="@+id/menu_livros_vouler"
                 android:showAsAction="ifRoom|withText"
                 android:icon="@drawable/ic_vouler"
-                android:title="Quero Ler"   />
+                android:title="@string/menuQueroler"   />
 
             <!-- Item Livros Relendo .....................-->
             <item
                 android:id="@+id/menu_livros_relendo"
                 android:showAsAction="ifRoom|withText"
                 android:icon="@drawable/ic_relendo"
-                android:title="Relendo"   />
+                android:title="@string/menuRelendo"   />
 
             <!-- Item Sobre.............................. -->
             <item
                 android:id="@+id/menu_sobre"
                 android:icon="@android:drawable/ic_dialog_info"
                 android:showAsAction="always"
-                android:title="@string/sobre" />
+                android:title="@string/menuSobre" />
         </menu>
     </item>
 </menu><!-- From: file:/home/aricelio/AndroidStudioProjects/ProgressBible/app/src/main/res/menu/menu_principal.xml -->

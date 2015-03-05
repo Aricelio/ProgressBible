@@ -1679,15 +1679,19 @@ containing a value of this type.
         public static final int app_name=0x7f0a0011;
         public static final int hello_world=0x7f0a0012;
         public static final int menuEditarLeitura=0x7f0a0013;
-        public static final int sobre=0x7f0a0014;
-        public static final int title_activity_historico_leitura=0x7f0a0015;
-        public static final int title_activity_lista_historicos=0x7f0a0016;
-        public static final int title_activity_lista_livros=0x7f0a0017;
-        public static final int title_activity_livros_lendo=0x7f0a0018;
-        public static final int title_activity_livros_lidos=0x7f0a0019;
-        public static final int title_activity_livros_vou_ler=0x7f0a001a;
-        public static final int title_activity_sobre=0x7f0a001b;
-        public static final int update_leitura=0x7f0a001c;
+        public static final int menuLendo=0x7f0a0014;
+        public static final int menuLido=0x7f0a0015;
+        public static final int menuQueroler=0x7f0a0016;
+        public static final int menuRelendo=0x7f0a0017;
+        public static final int menuSobre=0x7f0a0018;
+        public static final int title_activity_historico_leitura=0x7f0a0019;
+        public static final int title_activity_lista_historicos=0x7f0a001a;
+        public static final int title_activity_lista_livros=0x7f0a001b;
+        public static final int title_activity_livros_lendo=0x7f0a001c;
+        public static final int title_activity_livros_lidos=0x7f0a001d;
+        public static final int title_activity_livros_vou_ler=0x7f0a001e;
+        public static final int title_activity_sobre=0x7f0a001f;
+        public static final int update_leitura=0x7f0a0020;
     }
     public static final class style {
         /**  Customize your theme here. 

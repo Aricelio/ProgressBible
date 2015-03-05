@@ -6,7 +6,11 @@
     <string name="app_name">ProgressBible</string>
     <string name="hello_world">Hello world!</string>
     <string name="menuEditarLeitura">Edit reading</string>
-    <string name="sobre">About</string>
+    <string name="menuLendo">Reading</string>
+    <string name="menuLido">Readed</string>
+    <string name="menuQueroler"> Want to read</string>
+    <string name="menuRelendo">Rereading</string>
+    <string name="menuSobre">About</string>
     <string name="title_activity_historico_leitura">History of reading</string>
     <string name="title_activity_lista_historicos">History</string>
     <string name="title_activity_lista_livros">Select the book:</string>
