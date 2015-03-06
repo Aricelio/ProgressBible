@@ -27,4 +27,74 @@
     <string name="title_activity_livros_vou_ler">Vou Ler</string>
     <string name="title_activity_sobre">Sobre o ProgressBible</string>
 
+    <!-- Strings com os nomes dos livros do Antigo Testamento -->
+    <string name="genesis">Gênesis</string>
+    <string name="exodo">Êxodo</string>
+    <string name="levitico">Levítico</string>
+    <string name="numeros">Números</string>
+    <string name="deuteronomio">Deuteronômio</string>
+    <string name="josue">Josué</string>
+    <string name="juizes">Juízes</string>
+    <string name="rute">Rute</string>
+    <string name="primeiro_samuel">1 Samuel</string>
+    <string name="segundo_samuel">2 Samuel</string>
+    <string name="primeiro_reis">1 Reis</string>
+    <string name="segundo_reis">2 Reis</string>
+    <string name="primeiro_cronicas">1 Crônicas</string>
+    <string name="segundo_cronicas">2 Crônicas</string>
+    <string name="esdras">Esdras</string>
+    <string name="neemias">Neemias</string>
+    <string name="ester">Ester</string>
+    <string name="jo">Jó</string>
+    <string name="salmos">Salmos</string>
+    <string name="proverbios">Provérbios</string>
+    <string name="eclesiastes">Eclesiastes</string>
+    <string name="cantares">Cantares de Salomão</string>
+    <string name="isaias">Isaias</string>
+    <string name="jeremias">Jeremias</string>
+    <string name="lamentacoes">Lamentações de Jeremias</string>
+    <string name="ezequiel">Ezequiel</string>
+    <string name="daniel">Daniel</string>
+    <string name="oseias">Oséias</string>
+    <string name="joel">Joel</string>
+    <string name="amos">Amós</string>
+    <string name="obadias">Obadias</string>
+    <string name="jonas">Jonas</string>
+    <string name="miqueias">Miqueias</string>
+    <string name="naum">Naum</string>
+    <string name="habaacuque">Habacuque</string>
+    <string name="sofonias">Sofonias</string>
+    <string name="ageu">Ageu</string>
+    <string name="zacarias">Zacarias</string>
+    <string name="malaquias">Malaquias</string>
+
+    <!--  Strings do novo testamento -->
+    <string name="mateus">Mateus</string>
+    <string name="marcos">Marcos</string>
+    <string name="lucas">Lucas</string>
+    <string name="joao">João</string>
+    <string name="atos">Atos dos Apóstolos</string>
+    <string name="romanos">Romanos</string>
+    <string name="primeiro_corintios">1 Coríntios</string>
+    <string name="segundo_corintios">2 Coríntios</string>
+    <string name="galatas">Gálatas</string>
+    <string name="efesios">Efésios</string>
+    <string name="filipenses">Filipenses</string>
+    <string name="colossenses">Colossenses</string>
+    <string name="primeiro_tessalonicenses">1 Tessalonicenses</string>
+    <string name="segundo_tessalonicenses">2 Tessalonicenses</string>
+    <string name="primeiro_timoteo">1 Ttimóteo</string>
+    <string name="segundo_timoteo">2 Ttimóteo</string>
+    <string name="tito">Tito</string>
+    <string name="filemon">Filemon</string>
+    <string name="hebreus">Hebreus</string>
+    <string name="tiago">Tiago</string>
+    <string name="primeiro_pedro">1 Pedro</string>
+    <string name="segundo_pedro">2 Pedro</string>
+    <string name="primeiro_joao">1 João</string>
+    <string name="segundo_joao">2 João</string>
+    <string name="terceiro_joao">3 João</string>
+    <string name="judas">Judas</string>
+    <string name="apocalipse">Apocalipse</string>
+
 </resources>

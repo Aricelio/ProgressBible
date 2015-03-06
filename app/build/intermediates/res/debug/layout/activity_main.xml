@@ -47,7 +47,7 @@
                             android:id="@+id/txtGenesis"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Gênesis"
+                            android:text="@string/genesis"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
 
@@ -72,7 +72,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Êxodo"
+                            android:text="@string/exodo"
                             android:textStyle="bold"
                             android:id="@+id/txtExodo" />
 
@@ -97,7 +97,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Levítico"
+                            android:text="@string/levitico"
                             android:textStyle="bold"
                             android:id="@+id/txtLevitico" />
 
@@ -122,7 +122,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Números"
+                            android:text="@string/numeros"
                             android:textStyle="bold"
                             android:id="@+id/txtNumeros" />
 
@@ -147,7 +147,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Deuteromônio"
+                            android:text="@string/deuteronomio"
                             android:textStyle="bold"
                             android:id="@+id/txtDeuteromonio" />
 
@@ -172,7 +172,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Josué"
+                            android:text="@string/josue"
                             android:textStyle="bold"
                             android:id="@+id/txtJosue" />
 
@@ -197,7 +197,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Juízes"
+                            android:text="@string/juizes"
                             android:textStyle="bold"
                             android:id="@+id/txtJuizes" />
 
@@ -222,7 +222,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Rute"
+                            android:text="@string/rute"
                             android:textStyle="bold"
                             android:id="@+id/txtRute" />
 
@@ -247,7 +247,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="1 Samuel"
+                            android:text="@string/primeiro_samuel"
                             android:textStyle="bold"
                             android:id="@+id/txt1Samuel" />
 
@@ -272,7 +272,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="2 Samuel"
+                            android:text="@string/segundo_samuel"
                             android:textStyle="bold"
                             android:id="@+id/txt2Samuel"      />
 
@@ -297,7 +297,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="1 Reis"
+                            android:text="@string/primeiro_reis"
                             android:textStyle="bold"
                             android:id="@+id/txt1Reis" />
 
@@ -322,7 +322,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="2 Reis"
+                            android:text="@string/segundo_reis"
                             android:textStyle="bold"
                             android:id="@+id/txt2Reis" />
 
@@ -347,7 +347,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="1 Crônicas"
+                            android:text="@string/primeiro_cronicas"
                             android:textStyle="bold"
                             android:id="@+id/txt1Cronicas" />
 
@@ -372,7 +372,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="2 Crônicas"
+                            android:text="@string/segundo_cronicas"
                             android:textStyle="bold"
                             android:id="@+id/txt2Cronicas" />
 
@@ -397,7 +397,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Esdras"
+                            android:text="@string/esdras"
                             android:textStyle="bold"
                             android:id="@+id/txtEsdras" />
 
@@ -422,7 +422,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Neemias"
+                            android:text="@string/neemias"
                             android:textStyle="bold"
                             android:id="@+id/txtNeemias" />
 
@@ -447,7 +447,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Ester"
+                            android:text="@string/ester"
                             android:textStyle="bold"
                             android:id="@+id/txtEster" />
 
@@ -472,7 +472,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Jó"
+                            android:text="@string/jo"
                             android:textStyle="bold"
                             android:id="@+id/txtJo" />
 
@@ -497,7 +497,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Salmos"
+                            android:text="@string/salmos"
                             android:textStyle="bold"
                             android:id="@+id/txtSalmos" />
 
@@ -522,7 +522,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Provérbios"
+                            android:text="@string/proverbios"
                             android:textStyle="bold"
                             android:id="@+id/txtProverbios" />
 
@@ -547,7 +547,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Eclesiastes"
+                            android:text="@string/eclesiastes"
                             android:textStyle="bold"
                             android:id="@+id/txtEclesiastes" />
 
@@ -572,7 +572,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Cantares de Salomão"
+                            android:text="@string/cantares"
                             android:textStyle="bold"
                             android:id="@+id/txtCantares" />
 
@@ -597,7 +597,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Isaías"
+                            android:text="@string/isaias"
                             android:textStyle="bold"
                             android:id="@+id/txtIsaias" />
 
@@ -622,7 +622,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Jeremias"
+                            android:text="@string/jeremias"
                             android:textStyle="bold"
                             android:id="@+id/txtJeremias" />
 
@@ -647,7 +647,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Lamentações de Jeremias"
+                            android:text="@string/lamentacoes"
                             android:textStyle="bold"
                             android:id="@+id/txtLamentacoes" />
 
@@ -672,7 +672,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Ezequiel"
+                            android:text="@string/ezequiel"
                             android:textStyle="bold"
                             android:id="@+id/txtEzequiel" />
 
@@ -697,7 +697,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Daniel"
+                            android:text="@string/daniel"
                             android:textStyle="bold"
                             android:id="@+id/txtDaniel" />
 
@@ -722,7 +722,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Oseias"
+                            android:text="@string/oseias"
                             android:textStyle="bold"
                             android:id="@+id/txtOseias" />
 
@@ -747,7 +747,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Joel"
+                            android:text="@string/joel"
                             android:textStyle="bold"
                             android:id="@+id/txtJoel" />
 
@@ -772,7 +772,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Amós"
+                            android:text="@string/amos"
                             android:textStyle="bold"
                             android:id="@+id/txtAmos" />
 
@@ -797,7 +797,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Obadias"
+                            android:text="@string/obadias"
                             android:textStyle="bold"
                             android:id="@+id/txtObadias" />
 
@@ -822,7 +822,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Jonas"
+                            android:text="@string/jonas"
                             android:textStyle="bold"
                             android:id="@+id/txtJonas" />
 
@@ -847,7 +847,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Miqueias"
+                            android:text="@string/miqueias"
                             android:textStyle="bold"
                             android:id="@+id/txtMiqueias" />
 
@@ -872,7 +872,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Naum"
+                            android:text="@string/naum"
                             android:textStyle="bold"
                             android:id="@+id/txtNaum" />
 
@@ -897,7 +897,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Habacuque"
+                            android:text="@string/habaacuque"
                             android:textStyle="bold"
                             android:id="@+id/txtHabacuque" />
 
@@ -922,7 +922,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Sofonias"
+                            android:text="@string/sofonias"
                             android:textStyle="bold"
                             android:id="@+id/txtSofonias" />
 
@@ -947,7 +947,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Ageu"
+                            android:text="@string/ageu"
                             android:textStyle="bold"
                             android:id="@+id/txtAgeu" />
 
@@ -972,7 +972,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Zacarias"
+                            android:text="@string/zacarias"
                             android:id="@+id/txtZacarias" />
 
                         <TextView
@@ -996,7 +996,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="Malaquias"
+                            android:text="@string/malaquias"
                             android:id="@+id/txtMalaquias" />
 
                         <TextView
@@ -1034,7 +1034,7 @@
                             android:id="@+id/txtMateus"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mateus"
+                            android:text="@string/mateus"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1058,7 +1058,7 @@
                             android:id="@+id/txtMarcos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Marcos"
+                            android:text="@string/marcos"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1082,7 +1082,7 @@
                             android:id="@+id/txtLucas"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Lucas"
+                            android:text="@string/lucas"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1106,7 +1106,7 @@
                             android:id="@+id/txtJoao"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="João"
+                            android:text="@string/joao"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1130,7 +1130,7 @@
                             android:id="@+id/txtAtos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Atos dos Apóstolos"
+                            android:text="@string/atos"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1154,7 +1154,7 @@
                             android:id="@+id/txtRomanos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Romanos"
+                            android:text="@string/romanos"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1178,7 +1178,7 @@
                             android:id="@+id/txt1Corintios"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="1 Corintios"
+                            android:text="@string/primeiro_corintios"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1202,7 +1202,7 @@
                             android:id="@+id/txt2Corintios"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="2 Corintios"
+                            android:text="@string/segundo_corintios"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1226,7 +1226,7 @@
                             android:id="@+id/txtGalatas"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Gálatas"
+                            android:text="@string/galatas"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1250,7 +1250,7 @@
                             android:id="@+id/txtEfesios"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Efésios"
+                            android:text="@string/efesios"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1273,7 +1273,7 @@
                             android:id="@+id/txtFilipenses"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Filipenses"
+                            android:text="@string/filipenses"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1297,7 +1297,7 @@
                             android:id="@+id/txtColossenses"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Colossenses"
+                            android:text="@string/colossenses"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1321,7 +1321,7 @@
                             android:id="@+id/txt1Tessalonicenses"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="1 Tessalonicenses"
+                            android:text="@string/primeiro_tessalonicenses"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1345,7 +1345,7 @@
                             android:id="@+id/txt2Tessalonicenses"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="2 Tessalonicenses"
+                            android:text="@string/segundo_tessalonicenses"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1369,7 +1369,7 @@
                             android:id="@+id/txt1Timoteo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="1 Timóteo"
+                            android:text="@string/primeiro_timoteo"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1393,7 +1393,7 @@
                             android:id="@+id/txt2Timoteo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="2 Timóteo"
+                            android:text="@string/segundo_timoteo"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1417,7 +1417,7 @@
                             android:id="@+id/txtTito"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tito"
+                            android:text="@string/tito"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1441,7 +1441,7 @@
                             android:id="@+id/txtFilemom"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Filemom"
+                            android:text="@string/filemon"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1465,7 +1465,7 @@
                             android:id="@+id/txtHebreus"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Hebreus"
+                            android:text="@string/hebreus"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1489,7 +1489,7 @@
                             android:id="@+id/txtTiago"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tiago"
+                            android:text="@string/tiago"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1513,7 +1513,7 @@
                             android:id="@+id/txt1Pedro"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="1 Pedro"
+                            android:text="@string/primeiro_pedro"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1537,7 +1537,7 @@
                             android:id="@+id/txt2Pedro"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="2 Pedro"
+                            android:text="@string/segundo_pedro"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1561,7 +1561,7 @@
                             android:id="@+id/txt1Joao"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="1 João"
+                            android:text="@string/primeiro_joao"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1585,7 +1585,7 @@
                             android:id="@+id/txt2Joao"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="2 João"
+                            android:text="@string/segundo_joao"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1609,7 +1609,7 @@
                             android:id="@+id/txt3Joao"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="3 João"
+                            android:text="@string/terceiro_joao"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1633,7 +1633,7 @@
                             android:id="@+id/txtJudas"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Judas"
+                            android:text="@string/judas"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView
@@ -1657,7 +1657,7 @@
                             android:id="@+id/txtApocalipse"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Apocalipse"
+                            android:text="@string/apocalipse"
                             android:textStyle="bold"
                             android:textAppearance="?android:attr/textAppearanceMedium" />
                         <TextView

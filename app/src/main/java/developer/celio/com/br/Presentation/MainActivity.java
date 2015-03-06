@@ -38,13 +38,13 @@ public class MainActivity extends Activity {
         // Tab Antigo Testamento
         TabHost.TabSpec specs = th.newTabSpec("tag1");
         specs.setContent(R.id.tabAntigoTestamento);
-        specs.setIndicator("Antigo Testamento");
+        specs.setIndicator(getString(R.string.tabAntigoTestamento));
         th.addTab(specs);
 
         // Tab Novo Testamento
         specs = th.newTabSpec("tag2");
         specs.setContent(R.id.tabNovoTestamento);
-        specs.setIndicator("Novo Testamento");
+        specs.setIndicator(getString(R.string.tabNovoTestamento));
         th.addTab(specs);
 
         // Instanciação dos valores dos capitulos dos livros do Antigo Testamento

@@ -49,13 +49,13 @@ public class ListaLivros extends Activity {
         // Tab Antigo Testamento
         TabHost.TabSpec specs = th.newTabSpec("tag1");
         specs.setContent(R.id.tabAntigoTestamentoListaLivros);
-        specs.setIndicator("Antigo Testamento");
+        specs.setIndicator(getString(R.string.tabAntigoTestamento));
         th.addTab(specs);
 
         // Tab Novo Testamento
         specs = th.newTabSpec("tag2");
         specs.setContent(R.id.tabNovoTestamentoListaLivros);
-        specs.setIndicator("Novo Testamento");
+        specs.setIndicator(getString(R.string.tabNovoTestamento));
         th.addTab(specs);
 
         // Configuração das Listas
