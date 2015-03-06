@@ -107,11 +107,6 @@ public class HistoricoLeitura extends Activity {
         builder.setTitle(titulo);
         builder.setMessage(msg);
 
-        if (tipo == 1)
-            builder.setIcon(R.drawable.ic_ok);
-        else
-            builder.setIcon(R.drawable.ic_alerta);
-
         builder.setNeutralButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {

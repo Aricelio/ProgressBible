@@ -127,7 +127,6 @@ public class ListaLivros extends Activity {
             ID_LISTVIEW = 2;
         }
 
-        menu.setHeaderIcon(R.drawable.ic_sobre);
         menu.setHeaderTitle("Selecione uma Opção: ");
         menu.add(0, v.getId(), 0, "Atualizar Leitura"); // groupId, itemId, order, title
         menu.add(0, v.getId(), 0, "Histórico de Leitura");
@@ -203,45 +202,45 @@ public class ListaLivros extends Activity {
     // Método que prenche a lista de livros do Antigo  Testamento...................................
     private List<String> preencheAntigoTestamento(){
         List<String> lista = new ArrayList<String>();
-        lista.add("Gênesis");
-        lista.add("Êxodo");
-        lista.add("Levítico");
-        lista.add("Números");
-        lista.add("Deuteronômio");
-        lista.add("Josué");
-        lista.add("Juízes");
-        lista.add("Rute");
-        lista.add("1 Samuel");
-        lista.add("2 Samuel");
-        lista.add("1 Reis");
-        lista.add("2 Reis");
-        lista.add("1 Crônicas");
-        lista.add("2 Crônicas");
-        lista.add("Esdras");
-        lista.add("Neemias");
-        lista.add("Ester");
-        lista.add("Jó");
-        lista.add("Salmos");
-        lista.add("Provérbios");
-        lista.add("Eclesiastes");
-        lista.add("Cantares de Salomão");
-        lista.add("Isaías");
-        lista.add("Jeremias");
-        lista.add("Lamentações de Jeremias");
-        lista.add("Ezequiel");
-        lista.add("Daniel");
-        lista.add("Oseias");
-        lista.add("Joel");
-        lista.add("Amós");
-        lista.add("Obadias");
-        lista.add("Jonas");
-        lista.add("Miqueias");
-        lista.add("Naum");
-        lista.add("Habacuque");
-        lista.add("Sofonias");
-        lista.add("Ageu");
-        lista.add("Zacarias");
-        lista.add("Malaquias");
+        lista.add(getString(R.string.genesis));
+        lista.add(getString(R.string.exodo));
+        lista.add(getString(R.string.levitico));
+        lista.add(getString(R.string.numeros));
+        lista.add(getString(R.string.deuteronomio));
+        lista.add(getString(R.string.josue));
+        lista.add(getString(R.string.juizes));
+        lista.add(getString(R.string.rute));
+        lista.add(getString(R.string.primeiro_samuel));
+        lista.add(getString(R.string.segundo_samuel));
+        lista.add(getString(R.string.primeiro_reis));
+        lista.add(getString(R.string.segundo_reis));
+        lista.add(getString(R.string.primeiro_cronicas));
+        lista.add(getString(R.string.segundo_cronicas));
+        lista.add(getString(R.string.esdras));
+        lista.add(getString(R.string.neemias));
+        lista.add(getString(R.string.ester));
+        lista.add(getString(R.string.jo));
+        lista.add(getString(R.string.salmos));
+        lista.add(getString(R.string.proverbios));
+        lista.add(getString(R.string.eclesiastes));
+        lista.add(getString(R.string.cantares));
+        lista.add(getString(R.string.isaias));
+        lista.add(getString(R.string.jeremias));
+        lista.add(getString(R.string.lamentacoes));
+        lista.add(getString(R.string.ezequiel));
+        lista.add(getString(R.string.daniel));
+        lista.add(getString(R.string.oseias));
+        lista.add(getString(R.string.joel));
+        lista.add(getString(R.string.amos));
+        lista.add(getString(R.string.obadias));
+        lista.add(getString(R.string.jonas));
+        lista.add(getString(R.string.miqueias));
+        lista.add(getString(R.string.naum));
+        lista.add(getString(R.string.habaacuque));
+        lista.add(getString(R.string.sofonias));
+        lista.add(getString(R.string.ageu));
+        lista.add(getString(R.string.zacarias));
+        lista.add(getString(R.string.malaquias));
 
         return lista;
     }
@@ -249,33 +248,33 @@ public class ListaLivros extends Activity {
     // Método que prenche a lista de livros do Novo  Testamento...................................
     private List<String> preencheNovoTestamento(){
         List<String> lista = new ArrayList<String>();
-        lista.add("Mateus");
-        lista.add("Marcos");
-        lista.add("Lucas");
-        lista.add("João");
-        lista.add("Atos dos Apóstolos");
-        lista.add("Romanos");
-        lista.add("1 Coríntios");
-        lista.add("2 Coríntios");
-        lista.add("Gálatas");
-        lista.add("Efésios");
-        lista.add("Filipenses");
-        lista.add("Colossenses");
-        lista.add("1 Tessalonicenses");
-        lista.add("2 Tessalonicenses");
-        lista.add("1 Timóteo");
-        lista.add("2 Timóteo");
-        lista.add("Tito");
-        lista.add("Filemon");
-        lista.add("Hebreus");
-        lista.add("Tiago");
-        lista.add("1 Pedro");
-        lista.add("2 Pedro");
-        lista.add("1 João");
-        lista.add("2 João");
-        lista.add("3 João");
-        lista.add("Judas");
-        lista.add("Apocalipse");
+        lista.add(getString(R.string.mateus));
+        lista.add(getString(R.string.marcos));
+        lista.add(getString(R.string.lucas));
+        lista.add(getString(R.string.joao));
+        lista.add(getString(R.string.atos));
+        lista.add(getString(R.string.romanos));
+        lista.add(getString(R.string.primeiro_corintios));
+        lista.add(getString(R.string.segundo_corintios));
+        lista.add(getString(R.string.galatas));
+        lista.add(getString(R.string.efesios));
+        lista.add(getString(R.string.filipenses));
+        lista.add(getString(R.string.colossenses));
+        lista.add(getString(R.string.primeiro_tessalonicenses));
+        lista.add(getString(R.string.segundo_tessalonicenses));
+        lista.add(getString(R.string.primeiro_timoteo));
+        lista.add(getString(R.string.segundo_timoteo));
+        lista.add(getString(R.string.tito));
+        lista.add(getString(R.string.filemon));
+        lista.add(getString(R.string.hebreus));
+        lista.add(getString(R.string.tiago));
+        lista.add(getString(R.string.primeiro_pedro));
+        lista.add(getString(R.string.segundo_pedro));
+        lista.add(getString(R.string.primeiro_joao));
+        lista.add(getString(R.string.segundo_joao));
+        lista.add(getString(R.string.terceiro_joao));
+        lista.add(getString(R.string.judas));
+        lista.add(getString(R.string.apocalipse));
 
         return lista;
     }
@@ -286,10 +285,6 @@ public class ListaLivros extends Activity {
         builder.setTitle(titulo);
         builder.setMessage(msg);
 
-        if (tipo == 1)
-            builder.setIcon(R.drawable.ic_ok);
-        else
-            builder.setIcon(R.drawable.ic_alerta);
 
         builder.setNeutralButton("Ok", new DialogInterface.OnClickListener() {
             @Override
