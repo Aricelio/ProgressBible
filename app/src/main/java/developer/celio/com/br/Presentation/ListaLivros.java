@@ -145,32 +145,38 @@ public class ListaLivros extends Activity {
                 .getMenuInfo();
         long selectId = menuinfo.id;
         String strLivro = "";
+        Long idLivro = null;
+
+//        if(ID_LISTVIEW == 1)
+//            strLivro = retornaLivro(1, (int) selectId);
+//        else if(ID_LISTVIEW == 2)
+//            strLivro = retornaLivro(2, (int) selectId);
 
         if(ID_LISTVIEW == 1)
-            strLivro = retornaLivro(1, (int) selectId);
+            idLivro = selectId+1;
         else if(ID_LISTVIEW == 2)
-            strLivro = retornaLivro(2, (int) selectId);
+            idLivro = selectId+40;
 
-        livro = livroDAO.filtrar(strLivro);
+        //livro = livroDAO.filtrar(strLivro);
         try {
-            listHistorico = histDAO.listar(Integer.parseInt(livro.getId().toString()));
+            listHistorico = histDAO.listar(Integer.parseInt(idLivro.toString()));
         } catch(Exception e){
         }
 
         // Se escolher a opção ATUALIZAR..........................................
         if (item.getTitle().equals("Atualizar Leitura")) {
             Intent intent = new Intent(ListaLivros.this, HistoricoLeitura.class);
-            intent.putExtra("Nome", strLivro);
+            intent.putExtra("idLivro", idLivro);
             ListaLivros.this.startActivity(intent);
         }
         // Se escolher a opção HISTORICO..........................................
         else if (item.getTitle().equals("Histórico de Leitura")) {
             if(listHistorico.isEmpty()){
-                exibeMensagem("Alerta!", "Não há histórico para o Livro de " + livro.getNome(), 2);
+                exibeMensagem("Alerta!", "Não há histórico para o Livro", 2);
             }
             else{
                 Intent intentHistoricos = new Intent(ListaLivros.this, ListaHistoricos.class);
-                intentHistoricos.putExtra("Nome", strLivro);
+                intentHistoricos.putExtra("idLivro", idLivro);
                 ListaLivros.this.startActivity(intentHistoricos);
             }
         } else {

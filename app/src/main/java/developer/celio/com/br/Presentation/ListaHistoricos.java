@@ -24,7 +24,7 @@ public class ListaHistoricos extends Activity {
     private int adapterLayout = android.R.layout.simple_list_item_1;
     private List<Historico> listaHistorico = new ArrayList<Historico>();
     private HistoricoDAO histDAO = new HistoricoDAO(this);
-    private static int ID_LIVRO;
+    private static long ID_LIVRO;
     Livro livro = new Livro();
     LivroDAO livroDAO = new LivroDAO(this);
     private static String STR_NOME;
@@ -37,9 +37,10 @@ public class ListaHistoricos extends Activity {
 
         lstListaHistoricos = (ListView) findViewById(R.id.lstHistoricoLeitura);
 
-        STR_NOME = this.getIntent().getExtras().getString("Nome");
-        livro = livroDAO.filtrar(STR_NOME); // Pega  os dados do livro aberto
-        ID_LIVRO = Integer.parseInt(livro.getId().toString());
+        //STR_NOME = this.getIntent().getExtras().getString("Nome");
+
+        ID_LIVRO = this.getIntent().getExtras().getLong("idLivro");
+        livro = livroDAO.abrir(ID_LIVRO); // Pega  os dados do livro aberto
 
         // Configuração para o botão voltar do Icone
         ActionBar ab = getActionBar();
@@ -48,7 +49,7 @@ public class ListaHistoricos extends Activity {
 
     // Método para Carregar a lista de Históricos do livro que  foi aberto..........................
     private void carregarLista(){
-        listaHistorico = histDAO.listar(ID_LIVRO);
+        listaHistorico = histDAO.listar((int) ID_LIVRO);
         this.adapter = new ArrayAdapter<Historico>(this, adapterLayout, listaHistorico);
         this.lstListaHistoricos.setAdapter(adapter);
     }

@@ -22,6 +22,7 @@ import developer.celio.com.br.DomainModel.Livro;
 public class HistoricoLeitura extends Activity {
 
     private static String STR_NOME;
+    private static long ID_LIVRO;
     private AlertDialog alerta;
     LivroDAO livroDAO = new LivroDAO(this);
     HistoricoDAO historicoDAO = new HistoricoDAO(this);
@@ -33,12 +34,13 @@ public class HistoricoLeitura extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_historico_leitura);
 
-        STR_NOME = this.getIntent().getExtras().getString("Nome");
+        //STR_NOME = this.getIntent().getExtras().getInt("idLivro");
+        ID_LIVRO = this.getIntent().getExtras().getLong("idLivro");
         TextView txtNomeLivro = (TextView) findViewById(R.id.txtNomeLivroHistoricoLeitura);
         TextView txtCapitulos = (TextView) findViewById(R.id.txtCapitulosHistoricoLeitura);
         EditText edCapLido    = (EditText) findViewById(R.id.edtCapituloLido);
 
-        livro = livroDAO.filtrar(STR_NOME); // Pega  os dados do livro aberto
+        livro = livroDAO.abrir(ID_LIVRO); // Pega  os dados do livro aberto
         Historico hist = new Historico(new Date());
 
         // Tenta buscar o ultimo historico do livro que foi aberto
