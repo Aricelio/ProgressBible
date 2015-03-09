@@ -8,6 +8,7 @@
     <string name="apocalipse">Apocalypse</string>
     <string name="app_name">ProgressBible</string>
     <string name="atos">Acts of the Apóstolos</string>
+    <string name="btSalvar_HistoricoLeitura">Save History</string>
     <string name="cantares">Song of Solomon</string>
     <string name="colossenses">Colossians</string>
     <string name="daniel">Daniel</string>
@@ -47,6 +48,16 @@
     <string name="menuRelendo">Rereading</string>
     <string name="menuSobre">About</string>
     <string name="miqueias">Micah</string>
+    <string name="msgAlerta">Alert!</string>
+    <string name="msgConfirmacao">Confirmation</string>
+    <string name="msgErro">Error</string>
+    <string name="msgErroValorInvalido">Value inserted to Chapters read is invalid!</string>
+    <string name="msgErroValorObrigatório">The field Chapters read is required!</string>
+    <string name="msgNao_ha_historico">Do not have history for the book</string>
+    <string name="msgOpcaoAtualizar">Update reading</string>
+    <string name="msgOpcaoHistorico">History of reading</string>
+    <string name="msgSalvar">History saved successfully!</string>
+    <string name="msgTitulo">Select a option:</string>
     <string name="naum">Nahum</string>
     <string name="neemias">Nehemiah</string>
     <string name="numeros">Numbers</string>
@@ -85,6 +96,10 @@
     <string name="title_activity_livros_vou_ler">I\'ll read</string>
     <string name="title_activity_sobre">About the ProgressBible</string>
     <string name="tito">Titus</string>
+    <string name="txCapLido_HistoricoLeitura">Chapters read: </string>
+    <string name="txCapitulos_HistoricoLeitura">Chapters</string>
+    <string name="txComentario_HistoricoLeitura">Makes a comment than did you read:</string>
+    <string name="txNomeLivro_HistoricoLeitura">Book of: </string>
     <string name="update_leitura">Update reading</string>
     <string name="zacarias">Zechariah</string>
 </resources>

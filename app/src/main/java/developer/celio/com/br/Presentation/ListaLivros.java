@@ -35,6 +35,7 @@ public class ListaLivros extends Activity {
     private ArrayAdapter<String> adapterAntigo;
     private int adapterLayout = android.R.layout.simple_list_item_1;
     private static int ID_LISTVIEW;
+    private static final String TAG = "ACTIVITY LISTA_LIVROS";
 
     // Método onCreate..............................................................................
     @Override
@@ -127,9 +128,9 @@ public class ListaLivros extends Activity {
             ID_LISTVIEW = 2;
         }
 
-        menu.setHeaderTitle("Selecione uma Opção: ");
-        menu.add(0, v.getId(), 0, "Atualizar Leitura"); // groupId, itemId, order, title
-        menu.add(0, v.getId(), 0, "Histórico de Leitura");
+        menu.setHeaderTitle(getString(R.string.msgTitulo));
+        menu.add(0, v.getId(), 1, getString(R.string.msgOpcaoAtualizar)); // groupId, itemId, order, title
+        menu.add(0, v.getId(), 2, getString(R.string.msgOpcaoHistorico));
     }
 
     // Método para configuração da opção selecionada nas opções da lista............................
@@ -144,7 +145,6 @@ public class ListaLivros extends Activity {
         AdapterView.AdapterContextMenuInfo menuinfo = (AdapterView.AdapterContextMenuInfo) item
                 .getMenuInfo();
         long selectId = menuinfo.id;
-        String strLivro = "";
         Long idLivro = null;
 
         if(ID_LISTVIEW == 1)
@@ -152,22 +152,21 @@ public class ListaLivros extends Activity {
         else if(ID_LISTVIEW == 2)
             idLivro = selectId+40;
 
-        //livro = livroDAO.filtrar(strLivro);
         try {
             listHistorico = histDAO.listar(Integer.parseInt(idLivro.toString()));
         } catch(Exception e){
         }
 
         // Se escolher a opção ATUALIZAR..........................................
-        if (item.getTitle().equals("Atualizar Leitura")) {
+        if (item.getOrder() == 1) {
             Intent intent = new Intent(ListaLivros.this, HistoricoLeitura.class);
             intent.putExtra("idLivro", idLivro);
             ListaLivros.this.startActivity(intent);
         }
         // Se escolher a opção HISTORICO..........................................
-        else if (item.getTitle().equals("Histórico de Leitura")) {
+        else if (item.getOrder() == 2) {
             if(listHistorico.isEmpty()){
-                exibeMensagem("Alerta!", "Não há histórico para o Livro", 2);
+                exibeMensagem(getString(R.string.msgAlerta), getString(R.string.msgNao_ha_historico), 2);
             }
             else{
                 Intent intentHistoricos = new Intent(ListaLivros.this, ListaHistoricos.class);

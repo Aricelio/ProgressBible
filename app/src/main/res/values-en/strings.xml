@@ -35,14 +35,21 @@
     <string name="btSalvar_HistoricoLeitura">Save History</string>
 
     <string name="msgSalvar">History saved successfully!</string>
-    <string name="msgErroValorInvalido">Value inserted to 'Chapters read' is invalid!</string>
-    <string name="msgErroValorObrigatório">The field 'Chapters read' is required!</string>
+    <string name="msgErroValorInvalido">Value inserted to Chapters read is invalid!</string>
+    <string name="msgErroValorObrigatório">The field Chapters read is required!</string>
 
 
 
     <!-- Strings para a caixa de mensagem -->
     <string name="msgConfirmacao">Confirmation</string>
     <string name="msgErro">Error</string>
+    <string name="msgAlerta">Alert!</string>
+
+    <!-- Strings para os nomes dos componentes da tela ListaLIvros -->
+    <string name="msgTitulo">Select a option:</string>
+    <string name="msgOpcaoAtualizar">Update reading</string>
+    <string name="msgOpcaoHistorico">History of reading</string>
+    <string name="msgNao_ha_historico">Do not have history for the book</string>
 
     <!-- Strings com os nomes dos livros do Antigo Testamento -->
     <string name="genesis">Genesis</string>

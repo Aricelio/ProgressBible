@@ -123,6 +123,7 @@ public class LivroDAO {
     public Livro abrir(Long id){
         String sql = "select * from Livros where id=" + id;
         Livro livro = new Livro();
+        StatusDAO statusDAO = new StatusDAO(context);
 
         BDUtil bdUtil = new BDUtil(context);
         Cursor cursor = bdUtil.getReadableDatabase().rawQuery(sql,null);
@@ -133,6 +134,7 @@ public class LivroDAO {
                 livro.setNome(cursor.getString(1));
                 livro.setCapitulos(cursor.getInt(2));
                 livro.setTipo(cursor.getString(4));
+                livro.setStatus(statusDAO.abrir(cursor.getInt(5)));
             }
         } catch (Exception e) {
             Log.e(TAG, e.getMessage());

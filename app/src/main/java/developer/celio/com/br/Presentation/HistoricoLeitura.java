@@ -24,6 +24,7 @@ public class HistoricoLeitura extends Activity {
     private static long ID_LIVRO;
     private AlertDialog alerta;
     LivroDAO livroDAO = new LivroDAO(this);
+    private static final String TAG = "ACTIVITY HISTORICO_LEITURA";
     HistoricoDAO historicoDAO = new HistoricoDAO(this);
     Livro livro = new Livro();
 
@@ -78,6 +79,7 @@ public class HistoricoLeitura extends Activity {
                     historico.setLivro(livro);
 
                     historicoDAO.salvar(historico);
+                    exibeMensagem(getString(R.string.msgConfirmacao), getString(R.string.msgSalvar), 1);
 
                     if(!livro.getStatus().equals("Relendo")) {
                         if (cap == livro.getCapitulos())
@@ -90,7 +92,6 @@ public class HistoricoLeitura extends Activity {
                         }
                     }
 
-                    exibeMensagem(getString(R.string.msgConfirmacao), getString(R.string.msgSalvar), 1);
                 } catch (Exception ex) {
                     exibeMensagem(getString(R.string.msgErro), ex.getMessage(), 2);
                 }

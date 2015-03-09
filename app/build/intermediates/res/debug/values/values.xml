@@ -167,6 +167,7 @@
     <string name="apocalipse">Apocalipse</string>
     <string name="app_name">ProgressBible</string>
     <string name="atos">Atos dos Apóstolos</string>
+    <string name="btSalvar_HistoricoLeitura">Salvar Histórico</string>
     <string name="cantares">Cantares de Salomão</string>
     <string name="colossenses">Colossenses</string>
     <string name="daniel">Daniel</string>
@@ -206,6 +207,16 @@
     <string name="menuRelendo">Relendo</string>
     <string name="menuSobre">Sobre</string>
     <string name="miqueias">Miqueias</string>
+    <string name="msgAlerta">Alerta</string>
+    <string name="msgConfirmacao">Confirmação</string>
+    <string name="msgErro">Erro</string>
+    <string name="msgErroValorInvalido">Valor inserido para Capitulos Lidos é invalido!</string>
+    <string name="msgErroValorObrigatório">O campo Capitulos Lidos é de preenchimento obrigatório!</string>
+    <string name="msgNao_ha_historico">Não há histórico para o Livro</string>
+    <string name="msgOpcaoAtualizar">Atualizar leitura</string>
+    <string name="msgOpcaoHistorico">Histórico de Leitura</string>
+    <string name="msgSalvar">Histórico Salvo com Sucesso!</string>
+    <string name="msgTitulo">Selecione uma opção: </string>
     <string name="naum">Naum</string>
     <string name="neemias">Neemias</string>
     <string name="numeros">Números</string>
@@ -244,6 +255,10 @@
     <string name="title_activity_livros_vou_ler">Vou Ler</string>
     <string name="title_activity_sobre">Sobre o ProgressBible</string>
     <string name="tito">Tito</string>
+    <string name="txCapLido_HistoricoLeitura">Capitulos Lidos: </string>
+    <string name="txCapitulos_HistoricoLeitura">Capitulos</string>
+    <string name="txComentario_HistoricoLeitura">Faça um comentário do que leu:</string>
+    <string name="txNomeLivro_HistoricoLeitura">Livro de: </string>
     <string name="update_leitura">Atualizar Leitura</string>
     <string name="zacarias">Zacarias</string>
     <!-- From: file:/home/aricelio/AndroidStudioProjects/ProgressBible/app/src/main/res/values/styles.xml -->
