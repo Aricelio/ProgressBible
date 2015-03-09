@@ -27,6 +27,22 @@
     <string name="title_activity_livros_vou_ler">Vou Ler</string>
     <string name="title_activity_sobre">Sobre o ProgressBible</string>
 
+    <!-- Strings para os nomes dos componentes da Activity HistoricoLeitura -->
+    <string name="txNomeLivro_HistoricoLeitura">Livro de: </string>
+    <string name="txCapitulos_HistoricoLeitura">Capitulos</string>
+    <string name="txCapLido_HistoricoLeitura">Capitulos Lidos: </string>
+    <string name="txComentario_HistoricoLeitura">Faça um comentário do que leu:</string>
+    <string name="btSalvar_HistoricoLeitura">Salvar Histórico</string>
+    <string name="msgSalvar">Histórico Salvo com Sucesso!</string>
+    <string name="msgErroValorInvalido">Valor inserido para 'Capitulos Lidos' é invalido!</string>
+    <string name="msgErroValorObrigatório">O campo 'Capitulos Lidos' é de preenchimento obrigatório!</string>
+
+
+
+    <!-- Strings para a caixa de mensagem -->
+    <string name="msgConfirmacao">Confirmação</string>
+    <string name="msgErro">Erro</string>
+
     <!-- Strings com os nomes dos livros do Antigo Testamento -->
     <string name="genesis">Gênesis</string>
     <string name="exodo">Êxodo</string>

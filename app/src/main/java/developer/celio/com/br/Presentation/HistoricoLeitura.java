@@ -21,7 +21,6 @@ import developer.celio.com.br.DomainModel.Livro;
 
 public class HistoricoLeitura extends Activity {
 
-    private static String STR_NOME;
     private static long ID_LIVRO;
     private AlertDialog alerta;
     LivroDAO livroDAO = new LivroDAO(this);
@@ -34,7 +33,6 @@ public class HistoricoLeitura extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_historico_leitura);
 
-        //STR_NOME = this.getIntent().getExtras().getInt("idLivro");
         ID_LIVRO = this.getIntent().getExtras().getLong("idLivro");
         TextView txtNomeLivro = (TextView) findViewById(R.id.txtNomeLivroHistoricoLeitura);
         TextView txtCapitulos = (TextView) findViewById(R.id.txtCapitulosHistoricoLeitura);
@@ -51,8 +49,8 @@ public class HistoricoLeitura extends Activity {
 
         // Seta os componentes da tela
         edCapLido.setHint(String.valueOf(hist.getCapsLidos()));
-        txtNomeLivro.setText("Livro de: " + livro.getNome());
-        txtCapitulos.setText(livro.getCapitulos() + " Capitulo(s)");
+        txtNomeLivro.setText(getString(R.string.txNomeLivro_HistoricoLeitura) + livro.getNome());
+        txtCapitulos.setText(livro.getCapitulos() + " " + getString(R.string.txCapitulos_HistoricoLeitura));
 
         // Configuração para do botão Voltar na ActionBar
         ActionBar ab = getActionBar();
@@ -62,7 +60,7 @@ public class HistoricoLeitura extends Activity {
     // Método para Salvar o Histórico...............................................................
     public void onClickSalvarHistorico(View view) {
 
-        livro = livroDAO.filtrar(STR_NOME);
+        livro = livroDAO.abrir(ID_LIVRO);
         Historico historico = new Historico(new Date());
 
         EditText edCapLido = (EditText) findViewById(R.id.edtCapituloLido);
@@ -92,14 +90,14 @@ public class HistoricoLeitura extends Activity {
                         }
                     }
 
-                    exibeMensagem("Confirmação", "Histórico Salvo com Sucesso!", 1);
+                    exibeMensagem(getString(R.string.msgConfirmacao), getString(R.string.msgSalvar), 1);
                 } catch (Exception ex) {
-                    exibeMensagem("Erro!", ex.getMessage(), 2);
+                    exibeMensagem(getString(R.string.msgErro), ex.getMessage(), 2);
                 }
             } else
-                exibeMensagem("Erro!", "Valor inserido para 'Capitulos Lidos' é invalido!", 2);
+                exibeMensagem(getString(R.string.msgErro), getString(R.string.msgErroValorInvalido), 2);
         } catch (Exception e) {
-            exibeMensagem("Erro!", "O campo 'Capitulos Lidos' é de preenchimento obrigatório!", 2);
+            exibeMensagem(getString(R.string.msgErro), getString(R.string.msgErroValorObrigatório), 2);
         }
     }
 

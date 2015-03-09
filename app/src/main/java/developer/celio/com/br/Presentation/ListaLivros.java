@@ -147,11 +147,6 @@ public class ListaLivros extends Activity {
         String strLivro = "";
         Long idLivro = null;
 
-//        if(ID_LISTVIEW == 1)
-//            strLivro = retornaLivro(1, (int) selectId);
-//        else if(ID_LISTVIEW == 2)
-//            strLivro = retornaLivro(2, (int) selectId);
-
         if(ID_LISTVIEW == 1)
             idLivro = selectId+1;
         else if(ID_LISTVIEW == 2)
